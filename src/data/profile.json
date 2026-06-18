@@ -1,0 +1,22 @@
+{
+  "name": "Sanika Sharma",
+  "monogram": "SS",
+  "tagline": "Fashion Designer · Creative Thinker · Visual Storyteller",
+  "email": "sanika@example.com",
+  "social": {
+    "instagram": "#",
+    "linkedin": "#",
+    "behance": "#"
+  },
+  "about": {
+    "quote": "Fashion is not merely clothing; it is a language through which stories, culture, and individuality are expressed.",
+    "bio": [
+      "I am a fashion designer with a deep passion for creating garments that tell stories. My approach to design is rooted in the intersection of culture, craft, and contemporary aesthetics.",
+      "Drawing inspiration from architecture, nature, and human emotion, I create collections that challenge convention while maintaining wearability. Each piece is a conversation between the maker and the wearer.",
+      "Having recently completed my degree at Symbiosis Institute of Design, I bring a foundation of technical excellence combined with a strong creative vision — always in pursuit of work that is both beautiful and meaningful."
+    ],
+    "aspiration": "My aspiration is to work with fashion houses that value craft, sustainability, and the power of design as a form of cultural expression."
+  },
+  "heroImage": null,
+  "aboutImage": null
+}
