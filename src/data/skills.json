@@ -1,0 +1,21 @@
+{
+  "fashionDesign": [
+    { "name": "Garment Construction", "pct": 90 },
+    { "name": "Pattern Making", "pct": 85 },
+    { "name": "Draping", "pct": 95 },
+    { "name": "Fashion Illustration", "pct": 88 }
+  ],
+  "software": [
+    { "name": "Adobe Illustrator", "pct": 95 },
+    { "name": "Photoshop", "pct": 90 },
+    { "name": "InDesign", "pct": 80 },
+    { "name": "CLO 3D", "pct": 70 },
+    { "name": "Figma", "pct": 75 }
+  ],
+  "creative": [
+    { "name": "Trend Forecasting", "pct": 88 },
+    { "name": "Styling", "pct": 92 },
+    { "name": "Textile Research", "pct": 90 },
+    { "name": "Creative Direction", "pct": 85 }
+  ]
+}

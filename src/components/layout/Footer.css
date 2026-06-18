@@ -1,0 +1,23 @@
+.footer {
+  background: var(--charcoal); padding: 48px 60px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.footer-copy {
+  font-family: var(--font-display); font-size: 12px; letter-spacing: 2px;
+  text-transform: uppercase; color: rgba(250,248,245,0.5);
+}
+.footer-nav {
+  display: flex; gap: 32px; list-style: none;
+}
+.footer-nav a {
+  font-family: var(--font-display); font-size: 11px; letter-spacing: 2px;
+  text-transform: uppercase; color: rgba(250,248,245,0.4);
+  text-decoration: none; transition: color 0.2s;
+}
+.footer-nav a:hover { color: var(--gold); }
+.footer-scroll {
+  font-family: var(--font-display); font-size: 11px; letter-spacing: 2px;
+  text-transform: uppercase; color: rgba(250,248,245,0.4);
+  cursor: pointer; transition: color 0.2s;
+}
+.footer-scroll:hover { color: var(--gold); }

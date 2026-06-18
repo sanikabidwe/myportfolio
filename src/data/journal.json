@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "date": "Oct 26, 2024",
+    "readTime": "8 min read",
+    "title": "Deconstructing the Drape: How Ancient Textiles Shape Modern Fashion",
+    "excerpt": "An exploration of how centuries-old draping techniques from Indian, Greek, and Japanese traditions continue to influence the way contemporary designers approach form, movement, and material.",
+    "image": null,
+    "gradient": "linear-gradient(135deg,#3A3530 0%,#2A2520 100%)",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "date": "Sep 10, 2024",
+    "readTime": "5 min read",
+    "title": "The Art of Sustainable Fabric Sourcing",
+    "excerpt": "How to build a conscious design practice without compromising on quality or aesthetic.",
+    "image": null,
+    "gradient": "linear-gradient(135deg,#C4B8A8 0%,#AFA090 100%)",
+    "featured": false
+  },
+  {
+    "id": 3,
+    "date": "Aug 3, 2024",
+    "readTime": "4 min read",
+    "title": "Sketching Stories: My Illustration Process",
+    "excerpt": "Inside my sketchbook — how a simple pencil line becomes a fully-realised garment.",
+    "image": null,
+    "gradient": "linear-gradient(135deg,#D8CFC4 0%,#C8BBAA 100%)",
+    "featured": false
+  }
+]

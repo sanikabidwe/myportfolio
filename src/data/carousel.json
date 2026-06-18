@@ -1,0 +1,79 @@
+{
+  "landscape": [
+    {
+      "id": 1,
+      "caption": "Noorani - Women's wear",
+      "image": "https://firebasestorage.googleapis.com/v0/b/sanika-portfolio-d62f4.firebasestorage.app/o/assets%2Fimages%2Fnoorani-collection.jpg?alt=media&token=23e0432c-e255-49c6-9cde-582b1aaa5dbc",
+      "gradient": "linear-gradient(160deg,#2A2520 0%,#3A3028 50%,#1A1510 100%)"
+    },
+    {
+      "id": 2,
+      "caption": "Adhirath - Men's wear",
+      "image": "https://firebasestorage.googleapis.com/v0/b/sanika-portfolio-d62f4.firebasestorage.app/o/assets%2Fimages%2Fadhirat-collection.jpg?alt=media&token=0415fce9-45b9-4320-897c-8feb8433e938",
+      "gradient": "linear-gradient(160deg,#C4B8A8 0%,#D8CCBC 40%,#8A7A6A 100%)"
+    },
+    {
+      "id": 3,
+      "caption": "Entangled Souls",
+      "image": "https://firebasestorage.googleapis.com/v0/b/sanika-portfolio-d62f4.firebasestorage.app/o/assets%2Fimages%2Fthe_entangled_souls-collection-1.jpg?alt=media&token=7e2dc9ca-3400-46b5-9738-d53b29eaffb8",
+      "gradient": "linear-gradient(160deg,#3A3530 0%,#4A4540 50%,#252018 100%)"
+    },
+    {
+      "id": 4,
+      "caption": "Entangled Souls",
+      "image": "https://firebasestorage.googleapis.com/v0/b/sanika-portfolio-d62f4.firebasestorage.app/o/assets%2Fimages%2Fthe_entangled_souls-collection-2.jpg?alt=media&token=ac2cd07f-1986-4248-9389-081e4d02d1fc",
+      "gradient": "linear-gradient(160deg,#D4C8B8 0%,#E0D4C4 40%,#B0A090 100%)"
+    }
+  ],
+  "portrait": [
+    {
+      "id": 1,
+      "title": "Terra Collection",
+      "tag": "Fashion Collection · 2025",
+      "image": null,
+      "gradient": "linear-gradient(160deg,#2A2520 0%,#1A1510 100%)"
+    },
+    {
+      "id": 2,
+      "title": "Silken Whispers",
+      "tag": "Textile Design · 2024",
+      "image": null,
+      "gradient": "linear-gradient(160deg,#C8B09A 0%,#A8907A 100%)"
+    },
+    {
+      "id": 3,
+      "title": "Artisan Sketches",
+      "tag": "Illustration · 2024",
+      "image": null,
+      "gradient": "linear-gradient(160deg,#D8D0C4 0%,#B8B0A4 100%)"
+    },
+    {
+      "id": 4,
+      "title": "Structural Form",
+      "tag": "Garment Design · 2024",
+      "image": null,
+      "gradient": "linear-gradient(160deg,#3A3020 0%,#2A2010 100%)"
+    },
+    {
+      "id": 5,
+      "title": "AURA Capsule",
+      "tag": "Freelance · 2024",
+      "image": null,
+      "gradient": "linear-gradient(160deg,#A0B8C0 0%,#809AA0 100%)"
+    },
+    {
+      "id": 6,
+      "title": "Art of Layering",
+      "tag": "Styling · 2023",
+      "image": null,
+      "gradient": "linear-gradient(160deg,#C0A880 0%,#907050 100%)"
+    },
+    {
+      "id": 7,
+      "title": "Woven Identity",
+      "tag": "Textile Design · 2023",
+      "image": null,
+      "gradient": "linear-gradient(160deg,#1C2018 0%,#10140C 100%)"
+    }
+  ]
+}

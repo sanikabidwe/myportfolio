@@ -1,0 +1,49 @@
+.exp-section { padding: 120px 60px; background: var(--off-white); }
+.exp-timeline { max-width: 900px; margin: 0 auto; position: relative; }
+.exp-timeline::before {
+  content: ''; position: absolute; left: 50%; top: 0; bottom: 0;
+  width: 1px; background: rgba(200,169,110,0.3); transform: translateX(-50%);
+}
+.exp-item {
+  display: grid; grid-template-columns: 1fr 60px 1fr;
+  margin-bottom: 48px; position: relative;
+}
+.exp-card {
+  background: var(--beige); padding: 28px;
+}
+.exp-card-left {
+  margin-right: 30px; border-right: 2px solid var(--gold);
+  padding-right: 40px;
+}
+.exp-card-right {
+  margin-left: 30px; border-left: 2px solid var(--gold);
+  padding-left: 40px;
+}
+.exp-card h3 {
+  font-family: var(--font-display); font-size: 18px; font-weight: 600;
+  color: var(--charcoal); margin-bottom: 4px;
+}
+.exp-role {
+  font-family: var(--font-display); font-style: italic;
+  font-size: 15px; color: var(--gold); margin-bottom: 6px;
+}
+.exp-duration {
+  font-size: 11px; letter-spacing: 1px; color: var(--muted);
+  margin-bottom: 14px;
+}
+.exp-card p { font-size: 13px; line-height: 1.7; color: #5A5550; margin-bottom: 12px; }
+.exp-achievements { list-style: none; }
+.exp-achievements li {
+  font-size: 12px; color: var(--charcoal); margin-bottom: 6px;
+  padding-left: 14px; position: relative;
+}
+.exp-achievements li::before {
+  content: ''; position: absolute; left: 0; top: 5px;
+  width: 5px; height: 5px; border-radius: 50%; background: var(--gold);
+}
+.exp-dot-col { display: flex; justify-content: center; padding-top: 20px; }
+.exp-dot {
+  width: 12px; height: 12px; border-radius: 50%;
+  background: var(--gold); border: 3px solid var(--off-white);
+  box-shadow: 0 0 0 1px var(--gold); flex-shrink: 0;
+}

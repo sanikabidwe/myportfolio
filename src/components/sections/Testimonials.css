@@ -1,0 +1,33 @@
+.testi-section { padding: 120px 60px; background: var(--off-white); text-align: center; }
+.testi-inner { max-width: 700px; margin: 0 auto; }
+.testi-quote-mark {
+  font-family: var(--font-display); font-size: 100px; line-height: 0.8;
+  color: var(--gold); opacity: 0.6; margin-bottom: 16px; display: block;
+}
+.testi-card { background: white; padding: 48px; box-shadow: 0 4px 32px rgba(26,26,26,0.06); }
+.testi-text {
+  font-family: var(--font-display); font-style: italic;
+  font-size: 22px; font-weight: 300; line-height: 1.6;
+  color: var(--charcoal); margin-bottom: 32px;
+}
+.testi-avatar {
+  width: 52px; height: 52px; border-radius: 50%;
+  background: var(--beige-dark); margin: 0 auto 12px;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-display); font-size: 18px; color: var(--muted);
+}
+.testi-name { font-family: var(--font-display); font-weight: 600; font-size: 16px; margin-bottom: 4px; }
+.testi-role { font-size: 12px; letter-spacing: 0.5px; color: var(--muted); }
+.testi-dots { display: flex; gap: 8px; justify-content: center; margin-top: 32px; }
+.testi-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--beige-dark); cursor: pointer; transition: background 0.2s;
+}
+.testi-dot.active { background: var(--gold); }
+.testi-arrows { display: flex; gap: 16px; justify-content: center; margin-top: 20px; }
+.testi-arrow {
+  width: 40px; height: 40px; border: 1px solid var(--beige-dark);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; font-size: 16px; color: var(--muted); transition: all 0.2s;
+}
+.testi-arrow:hover { border-color: var(--gold); color: var(--gold); }

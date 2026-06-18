@@ -1,0 +1,136 @@
+.lc-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: var(--charcoal);
+}
+
+.lc-label {
+  position: absolute;
+  top: 32px;
+  left: 60px;
+  z-index: 20;
+  font-family: var(--font-display);
+  font-size: 11px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: rgba(250, 248, 245, 0.5);
+}
+
+.lc-slides-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.lc-slide {
+  position: absolute;
+  inset: 0;
+  transform: translateX(100%);
+}
+
+.lc-slide.active {
+  transform: translateX(0);
+  transition: transform 0.9s cubic-bezier(0.77, 0, 0.18, 1);
+}
+
+.lc-slide.exiting {
+  transform: translateX(-100%);
+  transition: transform 0.9s cubic-bezier(0.77, 0, 0.18, 1);
+}
+
+.lc-slide-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.lc-caption {
+  position: absolute;
+  bottom: 22px;
+  left: 60px;
+  font-family: var(--font-display);
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(250, 248, 245, 0.7);
+  opacity: 0;
+  transition: opacity 0.4s 0.4s;
+}
+
+.lc-slide.active .lc-caption {
+  opacity: 1;
+}
+
+.lc-counter {
+  position: absolute;
+  bottom: 22px;
+  right: 60px;
+  z-index: 20;
+  font-family: var(--font-display);
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: rgba(250, 248, 245, 0.4);
+}
+
+.lc-progress-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: rgba(200, 169, 110, 0.2);
+  z-index: 20;
+}
+
+.lc-progress-fill {
+  height: 100%;
+  width: 0%;
+  background: var(--gold);
+  transition: none;
+}
+
+.lc-progress-fill.running {
+  width: 100%;
+  transition: width 2500ms linear;
+}
+
+.lc-dots {
+  position: absolute;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 20;
+}
+
+.lc-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(250, 248, 245, 0.3);
+  cursor: pointer;
+  transition: all 0.35s;
+}
+
+.lc-dot.active {
+  background: var(--gold);
+  width: 22px;
+  border-radius: 3px;
+}
+
+/* Dusty edge overlay — fades both left and right ends */
+.lc-vignette {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  pointer-events: none;
+  background: linear-gradient(to right,
+      rgba(20, 16, 12, 0.72) 0%,
+      rgba(20, 16, 12, 0.18) 18%,
+      transparent 35%,
+      transparent 65%,
+      rgba(20, 16, 12, 0.18) 82%,
+      rgba(20, 16, 12, 0.72) 100%);
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "icon": "🏆",
+    "title": "Best Collection Design 2025",
+    "org": "Symbiosis Institute of Design",
+    "year": "2025",
+    "description": "Recognised for innovative fabric manipulation and silhouette concept in the graduation showcase."
+  },
+  {
+    "id": 2,
+    "icon": "🎖",
+    "title": "Merit Scholarship — Textile Innovation",
+    "org": "Ministry of Textiles, India",
+    "year": "2024",
+    "description": "Awarded for outstanding research in sustainable textile development and circular fashion."
+  },
+  {
+    "id": 3,
+    "icon": "📰",
+    "title": "Featured — Student Edition",
+    "org": "Elle India",
+    "year": "2024",
+    "description": "Selected as one of five emerging designers to watch in the Elle India annual student feature."
+  },
+  {
+    "id": 4,
+    "icon": "🎖",
+    "title": "Craftsmanship Excellence Award",
+    "org": "Indian Fashion Council",
+    "year": "2023",
+    "description": "Commended for exceptional garment construction and attention to detail in structured tailoring."
+  },
+  {
+    "id": 5,
+    "icon": "🏆",
+    "title": "Best Illustration Portfolio",
+    "org": "FashFest Design Competition",
+    "year": "2023",
+    "description": "First place in the national fashion illustration competition judged by industry professionals."
+  },
+  {
+    "id": 6,
+    "icon": "📰",
+    "title": "Dean's List — All Semesters",
+    "org": "Symbiosis Institute of Design",
+    "year": "2021–2025",
+    "description": "Recognised for sustained academic excellence across the full duration of the degree programme."
+  }
+]

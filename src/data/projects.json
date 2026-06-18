@@ -1,0 +1,112 @@
+[
+  {
+    "id": "terra-collection",
+    "title": "Terra — Sustainable Collection",
+    "year": 2025,
+    "category": "COLLECTIONS",
+    "type": "described",
+    "description": "A 12-piece womenswear collection inspired by circular fashion principles, raw earth tones, and zero-waste pattern cutting techniques.",
+    "image": null,
+    "gradient": "linear-gradient(135deg,#2A2520 0%,#1C1810 100%)",
+    "gridClass": "card-1"
+  },
+  {
+    "id": "silken-whispers",
+    "title": "Silken Whispers",
+    "year": 2024,
+    "category": "TEXTILE DESIGN",
+    "type": "photo-only",
+    "description": null,
+    "image": null,
+    "gradient": "linear-gradient(135deg,#C4B8A8 0%,#AFA090 100%)",
+    "gridClass": "card-2"
+  },
+  {
+    "id": "artisan-sketches",
+    "title": "Artisan Sketches",
+    "year": 2024,
+    "category": "ILLUSTRATION",
+    "type": "photo-only",
+    "description": null,
+    "image": null,
+    "gradient": "linear-gradient(135deg,#D8CFC4 0%,#C8BBAA 100%)",
+    "gridClass": "card-3"
+  },
+  {
+    "id": "structural-form",
+    "title": "Structural Form",
+    "year": 2024,
+    "category": "GARMENT DESIGN",
+    "type": "photo-only",
+    "description": null,
+    "image": null,
+    "gradient": "linear-gradient(135deg,#3A3530 0%,#2A2520 100%)",
+    "gridClass": "card-4"
+  },
+  {
+    "id": "mineral-study",
+    "title": "Mineral Study",
+    "year": 2023,
+    "category": "TEXTILE DESIGN",
+    "type": "photo-only",
+    "description": null,
+    "image": null,
+    "gradient": "linear-gradient(135deg,#B8D0C0 0%,#A0B8A8 100%)",
+    "gridClass": "card-5"
+  },
+  {
+    "id": "aura-capsule",
+    "title": "AURA — Capsule Collection",
+    "year": 2024,
+    "category": "CONCEPT DEVELOPMENT",
+    "type": "described",
+    "description": "A 12-piece capsule for an independent label — 70% sell-through in 3 weeks.",
+    "image": null,
+    "gradient": "linear-gradient(135deg,#E0D4C4 0%,#C8BBAA 100%)",
+    "gridClass": "card-6"
+  },
+  {
+    "id": "art-of-layering",
+    "title": "Art of Layering",
+    "year": 2023,
+    "category": "STYLING",
+    "type": "photo-only",
+    "description": null,
+    "image": null,
+    "gradient": "linear-gradient(135deg,#2C2C2C 0%,#1A1A1A 100%)",
+    "gridClass": "card-7"
+  },
+  {
+    "id": "fashion-editorial",
+    "title": "Fashion Editorial",
+    "year": 2023,
+    "category": "STYLING",
+    "type": "photo-only",
+    "description": null,
+    "image": null,
+    "gradient": "linear-gradient(135deg,#D4C8B8 0%,#BFB0A0 100%)",
+    "gridClass": "card-8"
+  },
+  {
+    "id": "woven-identity",
+    "title": "Woven Identity",
+    "year": 2023,
+    "category": "TEXTILE DESIGN",
+    "type": "photo-only",
+    "description": null,
+    "image": null,
+    "gradient": "linear-gradient(135deg,#C8A080 0%,#A88060 100%)",
+    "gridClass": "card-9"
+  },
+  {
+    "id": "draping-studies",
+    "title": "Draping Studies Vol. II",
+    "year": 2023,
+    "category": "CONCEPT DEVELOPMENT",
+    "type": "described",
+    "description": "Experimental draping research exploring bias-cut techniques across natural fibres.",
+    "image": null,
+    "gradient": "linear-gradient(135deg,#A0B8C8 0%,#809AAA 100%)",
+    "gridClass": "card-10"
+  }
+]

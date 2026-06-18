@@ -1,8 +1,8 @@
 {
-  "name": "Sanika Sharma",
+  "name": "Saanika Bidwe",
   "monogram": "SS",
   "tagline": "Fashion Designer · Creative Thinker · Visual Storyteller",
-  "email": "sanika@example.com",
+  "email": "sanikabidwe2004@gmail.com",
   "social": {
     "instagram": "#",
     "linkedin": "#",
@@ -17,6 +17,6 @@
     ],
     "aspiration": "My aspiration is to work with fashion houses that value craft, sustainability, and the power of design as a form of cultural expression."
   },
-  "heroImage": null,
+  "heroImage": "https://firebasestorage.googleapis.com/v0/b/sanika-portfolio-d62f4.firebasestorage.app/o/assets%2Fimages%2Fbunko_junko-image-1.jpeg?alt=media",
   "aboutImage": null
 }
