@@ -1,37 +1,188 @@
 .navbar {
-  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-  display: flex; align-items: center; justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 24px 60px;
-  background: rgba(250,248,245,0.92);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(200,169,110,0.15);
-  transition: box-shadow 0.3s;
+  background: transparent;
+  border-bottom: 1px solid transparent;
+  transition: background 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
 }
+
 .navbar.scrolled {
-  box-shadow: 0 4px 32px rgba(26,26,26,0.06);
+  background: rgba(250, 248, 245, 0.95);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(200, 169, 110, 0.15);
+  box-shadow: 0 4px 32px rgba(26, 26, 26, 0.06);
 }
+
 .nav-logo {
-  font-family: var(--font-display); font-size: 28px; font-weight: 600;
-  letter-spacing: -0.5px; color: var(--charcoal); text-decoration: none;
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: var(--off-white);
+  text-decoration: none;
   position: relative;
+  z-index: 110;
+  transition: color 0.4s ease;
 }
+
+.navbar.scrolled .nav-logo {
+  color: var(--charcoal);
+}
+
 .nav-logo-sup {
-  font-size: 16px; vertical-align: super; line-height: 0;
+  font-size: 16px;
+  vertical-align: super;
+  line-height: 0;
 }
+
 .nav-links {
-  display: flex; gap: 40px; list-style: none;
+  display: flex;
+  gap: 40px;
+  list-style: none;
 }
+
 .nav-links a {
-  font-family: var(--font-display); font-size: 13px; font-weight: 500;
-  letter-spacing: 2.5px; text-transform: uppercase; color: var(--charcoal);
-  text-decoration: none; position: relative; padding-bottom: 2px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(250, 248, 245, 0.85);
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 2px;
   transition: color 0.25s;
 }
-.nav-links a::after {
-  content: ''; position: absolute; bottom: 0; left: 0;
-  width: 0; height: 1px; background: var(--gold); transition: width 0.3s;
+
+.navbar.scrolled .nav-links a {
+  color: var(--charcoal);
 }
-.nav-links a:hover { color: var(--gold); }
+
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--gold);
+  transition: width 0.3s;
+}
+
+.nav-links a:hover {
+  color: var(--gold);
+}
+
 .nav-links a:hover::after,
-.nav-links a.active::after { width: 100%; }
-.nav-links a.active { color: var(--gold); }
+.nav-links a.active::after {
+  width: 100%;
+}
+
+.nav-links a.active {
+  color: var(--gold);
+}
+
+/* ── Hamburger button ── */
+.nav-hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  z-index: 110;
+}
+
+.nav-hamburger span {
+  display: block;
+  width: 24px;
+  height: 1.5px;
+  background: var(--off-white);
+  transition: transform 0.3s, opacity 0.3s, background 0.4s;
+  transform-origin: center;
+}
+
+.navbar.scrolled .nav-hamburger span {
+  background: var(--charcoal);
+}
+
+/* Animate to X when open */
+.nav-hamburger.open span:nth-child(1) {
+  transform: translateY(6.5px) rotate(45deg);
+}
+
+.nav-hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-hamburger.open span:nth-child(3) {
+  transform: translateY(-6.5px) rotate(-45deg);
+}
+
+/* ── Mobile drawer ── */
+.nav-mobile-drawer {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(250, 248, 245, 0.97);
+  backdrop-filter: blur(16px);
+  padding: 100px 32px 48px;
+  transform: translateY(-100%);
+  transition: transform 0.4s cubic-bezier(0.77, 0, 0.18, 1);
+  z-index: 105;
+  border-bottom: 1px solid rgba(200, 169, 110, 0.2);
+}
+
+.nav-mobile-drawer.open {
+  transform: translateY(0);
+}
+
+.nav-mobile-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.nav-mobile-links a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--charcoal);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.nav-mobile-links a:hover,
+.nav-mobile-links a.active {
+  color: var(--gold);
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 18px 24px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-hamburger {
+    display: flex;
+  }
+
+  .nav-mobile-drawer {
+    display: block;
+  }
+}

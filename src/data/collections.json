@@ -1,0 +1,162 @@
+[
+  {
+    "slug": "noorani",
+    "title": "Noorani",
+    "eyebrow": "Fashion Collection · 2026",
+    "heroImage": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-inspiration.jpeg",
+    "metaDesigner": "Saanika Bidwe",
+    "metaLooks": "8 Looks",
+    "metaCategory": "Womenswear",
+    "metaYear": "2026",
+    "conceptQuote": "\"Where Mughal grandeur meets the raw spirit of a warrior queen.\"",
+    "conceptBody": "Noorani is a womenswear collection rooted in the complex emotional landscape of Mughal-era India — power, devotion, tragedy, and defiance. The name, meaning <em>luminous</em> in Urdu, speaks to the radiant femininity that persists even in darkness.",
+    "conceptRight": [
+      "Drawing inspiration from the cinematic world of <em>Bajirao Mastani</em>, each look channels a distinct emotional archetype — Tegh (the sword), Ehsaas (the feeling), Ulfat (affection), Deewani (the devoted), Ehad (the vow), Noorjahan (the queen of light), Qaid (captivity), and Fanaa (dissolution).",
+      "The silhouettes merge historical Indian craft traditions — zardosi embroidery, banarasi weaves, kantha work — with contemporary structural tailoring. Colours move from ivory and dust-gold through rich reds and purples to forest greens and near-black, tracing an emotional arc from vulnerability to sovereignty."
+    ],
+    "pills": [
+      "Womenswear",
+      "Zardosi",
+      "Banarasi Weaves",
+      "Heritage Craft",
+      "Editorial",
+      "Mughal"
+    ],
+    "conceptBoardSubtitle": "Masataani · Noorani · Deewana",
+    "conceptBoardImage": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-concept.jpg",
+    "overviewSubtitle": "8 Womenswear Looks · SS 2026",
+    "looks": [
+      {
+        "number": "01",
+        "name": "Tegh",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-tegh-1.jpg",
+        "description": "<em>Tegh</em> — the sword. A warrior's silhouette rendered in ivory and burnished gold. A structured bralette of hand-embroidered zardosi work sits above a fluid ivory drape skirt, the hard meets the soft, armour meets grace. Inspired by the fearless Mastani mid-duel."
+      },
+      {
+        "number": "02",
+        "name": "Ehsaas",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-ehsaas-2.jpg",
+        "description": "<em>Ehsaas</em> — feeling. A soft column of pale blush chiffon falls from a structured gold-embroidered corset. A voluminous ivory shawl — half-draped, half-abandoned — speaks of intimacy interrupted. The quietest look in the collection, and perhaps its most vulnerable."
+      },
+      {
+        "number": "03",
+        "name": "Ulfat",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-ulfat-3.jpg",
+        "description": "<em>Ulfat</em> — affection. A deep crimson anarkali, densely embroidered with floral zardosi, worn over a wine-red lehenga. A three-dimensional rose crowns the shoulder. Gold-ankled boots bring the look into a contemporary register, refusing pure nostalgia."
+      },
+      {
+        "number": "04",
+        "name": "Deewani",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-deewani-4.jpg",
+        "description": "<em>Deewani</em> — the devoted. A look of all-consuming gold. A sheer tissue-silk gown is layered with tasselled fringe and paisley embroidery; a dramatic gilded halo headpiece echoes the ecstatic devotion of a kotha dancer. Intoxicating and dangerous in equal measure."
+      },
+      {
+        "number": "05",
+        "name": "Ehad",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-ehad-5.jpg",
+        "description": "<em>Ehad</em> — the vow. Sage-green meets burnt rose. A halter-neck kurta of kantha-embroidered dupion silk is worn over a layered lehenga of contrasting dusty rose brocade. The hooded sage dupatta recalls a bridal veil and a warrior's shield simultaneously."
+      },
+      {
+        "number": "06",
+        "name": "Noorjahan",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-noorjahan-6.jpg",
+        "description": "<em>Noorjahan</em> — the queen of light. Deep plum velvet over an embellished forest-green micro skirt, a long draped train of wine banarasi silk trailing behind. Ruby and pearl necklaces layer at the throat. Regal, complex, untouchable."
+      },
+      {
+        "number": "07",
+        "name": "Qaid",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-kaid-7.jpg",
+        "description": "<em>Qaid</em> — captivity. A cropped velvet jacket in dark wine over a midriff-baring bralette, paired with draped harem trousers in deep tobacco-brown printed silk. Heavy ankle cuffs and green-stone jewels complete a look that makes captivity look like a choice."
+      },
+      {
+        "number": "08",
+        "name": "Fanaa",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-fanaa-8.jpg",
+        "description": "<em>Fanaa</em> — dissolution. The collection ends in dark forest green and near-black. A raw-hemmed asymmetric kurta dress in olive tissue-silk, layered with a dark banarasi border, worn with embroidered black equestrian boots. The fire has burnt everything away. Only the dress remains."
+      }
+    ],
+    "lineupTitle": "All Eight Looks",
+    "lineupSubtitle": "Tegh · Ehsaas · Ulfat · Deewani · Ehad · Noorjahan · Qaid · Fanaa",
+    "lineupImage": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-collection.jpg",
+    "nextSlug": "adirath",
+    "nextTitle": "Adirath Collection"
+  },
+  {
+    "slug": "adirath",
+    "title": "Adirath",
+    "eyebrow": "Fashion Collection · 2026",
+    "heroImage": null,
+    "metaDesigner": "Saanika Bidwe",
+    "metaLooks": "Coming Soon",
+    "metaCategory": "Menswear",
+    "metaYear": "2026",
+    "conceptLabel": "The Concept",
+    "conceptQuote": "\"Where ancient armour becomes modern poetry.\"",
+    "conceptBody": "Adirath is a menswear collection that explores the duality of strength and vulnerability through the lens of ancient Indian warrior culture. The name means <em>great charioteer</em> in Sanskrit — a nod to those who carry others into battle.",
+    "conceptRight": [
+      "The collection draws from Mahabharata-era silhouettes, reinterpreting the dhoti-kurta and angavastram through a contemporary tailoring lens. Heavy linens meet hand-block printed cottons, structured shoulders echo pauldrons, and raw edges speak of battles yet to be fought.",
+      "The palette centres on raw sand, undyed khadi, deep indigo, aged iron, and burnished bronze — materials that tell the story of men who shaped history with their hands."
+    ],
+    "pills": [
+      "Menswear",
+      "Heritage",
+      "Block Print",
+      "Khadi",
+      "Structural",
+      "Artisanal"
+    ],
+    "conceptBoardLabel": "Mood & Research",
+    "conceptBoardTitle": "Concept Board",
+    "conceptBoardSubtitle": "Ancient Warrior · Modern Poet",
+    "conceptBoardImage": null,
+    "overviewLabel": "The Looks",
+    "overviewTitle": "Full Collection",
+    "overviewSubtitle": "Coming Soon · SS 2026",
+    "looks": [],
+    "lineupLabel": "The Full Lineup",
+    "lineupTitle": "Collection Preview",
+    "lineupSubtitle": "Images releasing soon",
+    "lineupImage": null,
+    "nextSlug": "entangled-souls",
+    "nextTitle": "The Entangled Souls"
+  },
+  {
+    "slug": "entangled-souls",
+    "title": "The Entangled Souls",
+    "eyebrow": "Fashion Collection · 2026",
+    "heroImage": null,
+    "metaDesigner": "Saanika Bidwe",
+    "metaLooks": "Coming Soon",
+    "metaCategory": "Womenswear",
+    "metaYear": "2026",
+    "conceptLabel": "The Concept",
+    "conceptQuote": "\"Two bodies, one spirit — where love dissolves the self.\"",
+    "conceptBody": "The Entangled Souls is a womenswear collection exploring the philosophy of <em>advaita</em> — non-duality — through fashion. Each garment is designed to feel incomplete alone, only revealing its full form when worn in relationship to another piece.",
+    "conceptRight": [
+      "Inspired by the mystical poetry of Mirabai and Rumi, the collection uses fabric manipulation — interlocking cuts, shared seams, dual-sided garments — to create pieces that physically enact the concept of interconnection.",
+      "The palette centres on deep indigo, midnight purple, and silver-white — the colours of night sky and moonlight, of the space between two people who have become one."
+    ],
+    "pills": [
+      "Womenswear",
+      "Conceptual",
+      "Fabric Manipulation",
+      "Mystical",
+      "Indigo",
+      "Duality"
+    ],
+    "conceptBoardLabel": "Mood & Research",
+    "conceptBoardTitle": "Concept Board",
+    "conceptBoardSubtitle": "Advaita · Mirabai · Rumi",
+    "conceptBoardImage": null,
+    "overviewLabel": "The Looks",
+    "overviewTitle": "Full Collection",
+    "overviewSubtitle": "Coming Soon · SS 2026",
+    "looks": [],
+    "lineupLabel": "The Full Lineup",
+    "lineupTitle": "Collection Preview",
+    "lineupSubtitle": "Images releasing soon",
+    "lineupImage": null,
+    "nextSlug": null,
+    "nextTitle": null
+  }
+]

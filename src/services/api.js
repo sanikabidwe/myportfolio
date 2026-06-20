@@ -11,6 +11,7 @@
 import profile      from '../data/profile.json';
 import carousel     from '../data/carousel.json';
 import projects     from '../data/projects.json';
+import collections  from '../data/collections.json';
 import skills       from '../data/skills.json';
 import awards       from '../data/awards.json';
 import journal      from '../data/journal.json';
@@ -26,6 +27,13 @@ export const getJournal      = () => Promise.resolve(journal);
 export const getTestimonials = () => Promise.resolve(testimonials);
 export const getExperience   = () => Promise.resolve(experience);
 export const getEducation    = () => Promise.resolve(education);
+
+/**
+ * @param {string} slug - collection slug (e.g. 'noorani', 'adirath')
+ * @returns {Promise<object|null>} the matching collection object, or null if not found
+ */
+export const getCollection = (slug) =>
+  Promise.resolve(collections.find(c => c.slug === slug) ?? null);
 
 /**
  * @param {string|null} category - filter by category string, or null/'ALL' for all projects

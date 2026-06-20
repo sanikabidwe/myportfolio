@@ -1,5 +1,5 @@
-.testi-section { padding: 120px 60px; background: var(--off-white); text-align: center; }
-.testi-inner { max-width: 700px; margin: 0 auto; }
+.testi-section { padding: 120px 0; background: var(--off-white); text-align: center; }
+.testi-inner { max-width: 1280px; margin: 0 auto; padding: 0 60px; }
 .testi-quote-mark {
   font-family: var(--font-display); font-size: 100px; line-height: 0.8;
   color: var(--gold); opacity: 0.6; margin-bottom: 16px; display: block;
@@ -31,3 +31,18 @@
   cursor: pointer; font-size: 16px; color: var(--muted); transition: all 0.2s;
 }
 .testi-arrow:hover { border-color: var(--gold); color: var(--gold); }
+
+@media (max-width: 768px) {
+  .testi-section { padding: 80px 0; }
+  .testi-inner { padding: 0 32px; }
+  .testi-card { padding: 32px 24px; }
+  .testi-text { font-size: 18px; }
+  .testi-quote-mark { font-size: 72px; }
+}
+
+@media (max-width: 480px) {
+  .testi-section { padding: 64px 0; }
+  .testi-inner { padding: 0 20px; }
+  .testi-card { padding: 24px 16px; }
+  .testi-text { font-size: 16px; }
+}

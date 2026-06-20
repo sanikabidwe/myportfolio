@@ -1,6 +1,6 @@
-.awards-section { padding: 120px 60px; background: var(--off-white); }
+.awards-section { padding: 120px 0; background: var(--off-white); }
 .awards-grid {
-  max-width: 1100px; margin: 0 auto;
+  max-width: 1280px; margin: 0 auto; padding: 0 60px;
   display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; margin-bottom: 80px;
 }
 .award-card {
@@ -19,15 +19,37 @@
   font-family: var(--font-display); font-style: italic;
   font-size: 14px; color: var(--muted); margin-bottom: 6px;
 }
-.award-year { font-size: 11px; letter-spacing: 1px; color: var(--gold); margin-bottom: 12px; }
+.award-year { font-family: var(--font-label); font-size: 11px; letter-spacing: 1px; color: var(--gold); margin-bottom: 12px; }
 .award-card p { font-size: 12px; color: #7A7570; line-height: 1.6; }
-.publications-strip { max-width: 900px; margin: 0 auto; text-align: center; }
+.publications-strip { max-width: 1280px; margin: 0 auto; padding: 0 60px; text-align: center; }
 .pub-label {
-  font-family: var(--font-display); font-size: 11px; letter-spacing: 3px;
+  font-family: var(--font-label); font-size: 11px; letter-spacing: 3px;
   text-transform: uppercase; color: var(--muted); margin-bottom: 24px;
 }
 .pub-logos { display: flex; gap: 40px; justify-content: center; align-items: center; flex-wrap: wrap; }
 .pub-logo {
   font-family: var(--font-display); font-size: 20px; font-weight: 600;
   letter-spacing: 2px; color: #C0B8B0; text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .awards-section { padding: 80px 0; }
+  .awards-grid {
+    padding: 0 32px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-bottom: 48px;
+  }
+  .publications-strip { padding: 0 32px; }
+  .award-card { padding: 28px 20px; }
+  .pub-logos { gap: 24px; }
+}
+
+@media (max-width: 480px) {
+  .awards-section { padding: 64px 0; }
+  .awards-grid {
+    padding: 0 20px;
+    grid-template-columns: 1fr;
+  }
+  .publications-strip { padding: 0 20px; }
 }

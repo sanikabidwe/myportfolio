@@ -1,23 +1,111 @@
-.about-section { padding: 120px 60px; background: var(--off-white); }
+.about-section {
+  padding: 120px 0;
+  background: var(--off-white);
+}
+
 .about-inner {
-  max-width: 1200px; margin: 0 auto;
-  display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 60px;
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 80px;
+  align-items: start;
 }
+
+/* ── Left: profile photo ── */
+.about-photo-col {
+  position: sticky;
+  top: 120px;
+}
+
+.about-photo {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  border-radius: 10px;
+}
+
+.about-photo-placeholder {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  background: var(--beige-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 14px;
+  color: var(--muted);
+  letter-spacing: 2px;
+}
+
+/* ── Right: quote + bio ── */
 .about-quote {
-  font-family: var(--font-display); font-style: italic;
-  font-size: clamp(24px,3.5vw,38px); font-weight: 300;
-  line-height: 1.3; color: var(--charcoal);
-  border-left: 2px solid var(--gold); padding-left: 32px;
-  margin-bottom: 32px;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(20px, 2.5vw, 28px);
+  font-weight: 300;
+  line-height: 1.2;
+  color: var(--charcoal);
+  border-left: 2px solid var(--gold);
+  padding-left: 28px;
+  margin-bottom: 40px;
 }
-.about-photo-small {
-  width: 220px; height: 280px; margin-top: 8px;
-}
+
 .about-content p {
-  font-size: 15px; line-height: 1.9; color: #4A4540; margin-bottom: 24px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #4A4540;
+  text-align: justify;
+  margin-bottom: 24px;
 }
+
 .about-aspiration {
   font-family: var(--font-display) !important;
-  font-style: italic; font-size: 17px !important;
-  color: var(--muted) !important; margin-top: 8px;
+  font-style: italic;
+  font-size: 17px !important;
+  color: var(--muted) !important;
+  margin-top: 8px;
+}
+
+/* ── Tablet ── */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 80px 0;
+  }
+
+  .about-inner {
+    padding: 0 32px;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-photo-col {
+    position: static;
+  }
+
+  .about-photo,
+  .about-photo-placeholder {
+    aspect-ratio: 4 / 3;
+    max-height: 360px;
+  }
+}
+
+/* ── Phone ── */
+@media (max-width: 480px) {
+  .about-section {
+    padding: 64px 0;
+  }
+
+  .about-inner {
+    padding: 0 20px;
+  }
+
+  .about-quote {
+    padding-left: 20px;
+    font-size: 18px;
+  }
 }

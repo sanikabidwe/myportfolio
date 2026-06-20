@@ -27,13 +27,13 @@ body {
 
 /* ─── SHARED SECTION UTILITIES ──────────────────────────────────── */
 .section-label {
-  font-family: var(--font-display);
+  font-family: var(--font-label);
   font-size: 11px; letter-spacing: 4px;
   text-transform: uppercase; color: var(--gold);
   margin-bottom: 16px;
 }
 .section-title {
-  font-family: var(--font-display);
+  font-family: var(--font-label);
   font-size: clamp(36px, 5vw, 60px);
   font-weight: 400; letter-spacing: 3px; text-transform: uppercase;
   text-align: center; margin-bottom: 12px;
@@ -45,13 +45,13 @@ body {
 .img-placeholder {
   background: linear-gradient(135deg, #E8E2D9 0%, #D4CBC0 100%);
   display: flex; align-items: center; justify-content: center;
-  color: var(--muted); font-family: var(--font-display);
+  color: var(--muted); font-family: var(--font-label);
   font-size: 13px; letter-spacing: 2px; text-transform: uppercase;
 }
 
 /* ─── BUTTONS ────────────────────────────────────────────────────── */
 .btn {
-  font-family: var(--font-display); font-size: 11px; font-weight: 500;
+  font-family: var(--font-label); font-size: 11px; font-weight: 500;
   letter-spacing: 3px; text-transform: uppercase;
   padding: 14px 32px; text-decoration: none; transition: all 0.3s;
   display: inline-block; cursor: pointer; border: none;
@@ -64,3 +64,18 @@ body {
   border: 1px solid var(--gold); color: var(--gold); background: transparent;
 }
 .btn-gold:hover { background: var(--gold); color: var(--off-white); }
+
+/* ─── SAFE AREA CONTAINER ────────────────────────────────────────── */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+@media (max-width: 768px) {
+  .container { padding: 0 32px; }
+}
+@media (max-width: 480px) {
+  .container { padding: 0 20px; }
+}
+

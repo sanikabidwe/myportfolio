@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { getProfile, getCarouselData, getSkills, getAwards, getJournal, getTestimonials, getExperience, getEducation } from '../services/api';
 import Hero from '../components/sections/Hero';
-import LandscapeCarousel from '../components/sections/LandscapeCarousel';
 import PortraitCarousel from '../components/sections/PortraitCarousel';
 import About from '../components/sections/About';
 import Education from '../components/sections/Education';
@@ -32,7 +31,6 @@ export default function Home() {
   return (
     <>
       <Hero profile={data.profile} />
-      <LandscapeCarousel slides={data.carousel?.landscape} />
       <PortraitCarousel slides={data.carousel?.portrait} />
       <About profile={data.profile} />
       <Education education={data.education} />

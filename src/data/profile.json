@@ -9,14 +9,15 @@
     "behance": "#"
   },
   "about": {
-    "quote": "Fashion is not merely clothing; it is a language through which stories, culture, and individuality are expressed.",
+    "quote": "Through design, I seek to transform stories, emotions, and ideas into meaningful fashion experiences that balance creativity, craftsmanship, and contemporary aesthetics.",
     "bio": [
-      "I am a fashion designer with a deep passion for creating garments that tell stories. My approach to design is rooted in the intersection of culture, craft, and contemporary aesthetics.",
-      "Drawing inspiration from architecture, nature, and human emotion, I create collections that challenge convention while maintaining wearability. Each piece is a conversation between the maker and the wearer.",
-      "Having recently completed my degree at Symbiosis Institute of Design, I bring a foundation of technical excellence combined with a strong creative vision — always in pursuit of work that is both beautiful and meaningful."
+      "I am a Fashion Design Graduate with a strong interest in concept-driven design, visual storytelling, and contemporary aesthetics. For me, fashion is more than creating garments, it is a way of expressing ideas, emotions, and perspectives through thoughtful design.",
+      "Throughout my academic journey, I have explored diverse fashion projects, from conceptual collections to executed garments, enhancing my skills in design development, fashion illustration, concept creation, and collection planning.",
+      "I approach every project with creativity, responsibility, and attention to detail, always striving to create designs that are both visually engaging and purposeful. As a designer, I am continuously learning, exploring new possibilities, and seeking opportunities to contribute fresh ideas while growing within the fashion industry."
     ],
     "aspiration": "My aspiration is to work with fashion houses that value craft, sustainability, and the power of design as a form of cultural expression."
   },
-  "heroImage": "https://firebasestorage.googleapis.com/v0/b/sanika-portfolio-d62f4.firebasestorage.app/o/assets%2Fimages%2Fbunko_junko-image-1.jpeg?alt=media",
+  "heroImage": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/bunko_junko-image-1.jpeg",
+  "heroVideo": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/videos/bombay_times-behind_the_mask.MP4",
   "aboutImage": null
 }
