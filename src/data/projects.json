@@ -2,111 +2,253 @@
   {
     "id": "terra-collection",
     "title": "Terra — Sustainable Collection",
+    "modalTitle": "Terra — Sustainable <em>Collection</em>",
     "year": 2025,
     "category": "COLLECTIONS",
     "type": "described",
     "description": "A 12-piece womenswear collection inspired by circular fashion principles, raw earth tones, and zero-waste pattern cutting techniques.",
+    "modalDescription": "A 12-piece womenswear collection inspired by circular fashion principles, raw earth tones, and zero-waste pattern cutting techniques.\n\nEach piece uses deadstock fabrics, natural dyes, and hand-finishing techniques. The collection debuted at Sasmira's 2025 graduation show.",
+    "modalTags": [
+      "Womenswear",
+      "Sustainable Design",
+      "Zero Waste",
+      "Natural Dyes",
+      "Pattern Making"
+    ],
     "image": null,
     "gradient": "linear-gradient(135deg,#2A2520 0%,#1C1810 100%)",
+    "modalGradients": [
+      "linear-gradient(135deg,#2A2520 0%,#1C1810 100%)",
+      "linear-gradient(160deg,#3D3028 0%,#251A10 100%)",
+      "linear-gradient(135deg,#4A3C2C 0%,#2A2010 100%)"
+    ],
     "gridClass": "card-1"
   },
   {
-    "id": "silken-whispers",
-    "title": "Silken Whispers",
-    "year": 2024,
-    "category": "TEXTILE DESIGN",
+    "id": "entangled-souls-collection",
+    "title": "The Entangled Souls",
+    "modalTitle": "The Entangled <em>Souls</em>",
+    "year": 2026,
+    "category": "COLLECTIONS",
     "type": "photo-only",
     "description": null,
-    "image": null,
-    "gradient": "linear-gradient(135deg,#C4B8A8 0%,#AFA090 100%)",
-    "gridClass": "card-2"
+    "modalDescription": "An intimate collection exploring the tension between closeness and distance — garments built to be worn together, apart, or layered as a single entity.\n\nDeconstructed seams, shared silhouettes, and hand-stitched connections form the vocabulary of this emotionally charged body of work.",
+    "modalTags": [
+      "Womenswear",
+      "Deconstruction",
+      "Handcraft",
+      "Concept Development"
+    ],
+    "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-cover.jpg",
+    "gradient": "linear-gradient(160deg,#3A3020 0%,#2A2010 100%)",
+    "modalGradients": [
+      "linear-gradient(160deg,#3A3020 0%,#2A2010 100%)",
+      "linear-gradient(135deg,#4A3828 0%,#2C2018 100%)"
+    ],
+    "gridClass": "card-14",
+    "collectionSlug": "entangled-souls"
   },
   {
-    "id": "artisan-sketches",
-    "title": "Artisan Sketches",
-    "year": 2024,
-    "category": "ILLUSTRATION",
+    "id": "kerala-craft-project",
+    "title": "Kerala Craft Project",
+    "modalTitle": "Kerala <em>Craft Project</em>",
+    "year": 2026,
+    "category": "CRAFT EXPLORATION",
     "type": "photo-only",
     "description": null,
-    "image": null,
-    "gradient": "linear-gradient(135deg,#D8CFC4 0%,#C8BBAA 100%)",
-    "gridClass": "card-3"
-  },
-  {
-    "id": "structural-form",
-    "title": "Structural Form",
-    "year": 2024,
-    "category": "GARMENT DESIGN",
-    "type": "photo-only",
-    "description": null,
-    "image": null,
+    "modalDescription": "A study in architectural tailoring — exploring how garments can hold shape independently of the body. Inspired by Balenciaga archival pieces.\n\nConstructed using bonded interlining, rigid organza, and hand-stitched boning, each garment stands as a wearable sculpture.",
+    "modalTags": [
+      "Tailoring",
+      "Architectural Fashion",
+      "Pattern Making",
+      "Boning & Structure"
+    ],
+    "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/kerala_craft_project-collection.jpeg",
+    "modalImages": [
+      "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/kerala_craft_project-belt-inspiration.jpeg",
+      "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/kerala_craft_project-shankh-inspiration.jpeg",
+      "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/kerala_craft_project-shankh-product.jpeg",
+      "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/kerala_craft_project-belt-inspiration.jpeg",
+      "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/kerala_craft_project-belt-product.jpeg",
+      "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/kerala_craft_project-belt-inspiration.jpeg"
+    ],
     "gradient": "linear-gradient(135deg,#3A3530 0%,#2A2520 100%)",
+    "modalGradients": [
+      "linear-gradient(135deg,#3A3530 0%,#2A2520 100%)",
+      "linear-gradient(160deg,#4A4038 0%,#30281E 100%)"
+    ],
     "gridClass": "card-4"
   },
   {
-    "id": "mineral-study",
-    "title": "Mineral Study",
-    "year": 2023,
-    "category": "TEXTILE DESIGN",
-    "type": "photo-only",
-    "description": null,
-    "image": null,
-    "gradient": "linear-gradient(135deg,#B8D0C0 0%,#A0B8A8 100%)",
-    "gridClass": "card-5"
-  },
-  {
-    "id": "aura-capsule",
-    "title": "AURA — Capsule Collection",
-    "year": 2024,
-    "category": "CONCEPT DEVELOPMENT",
+    "id": "bunko-junko",
+    "title": "Stardust(Bunko-Junko)",
+    "modalTitle": "Stardust<em>(Bunko-Junko)</em>",
+    "year": 2026,
+    "category": "GARMENT DESIGN",
     "type": "described",
-    "description": "A 12-piece capsule for an independent label — 70% sell-through in 3 weeks.",
-    "image": null,
+    "description": "Designed and created a sustainable fashion jacket as part of a Bunko Junko project, exploring eco-conscious design and responsible fashion practices.",
+    "modalDescription": "<b>Inspiration:</b> <i>Metallic Fluidity</i> \n\nFluidity of Formation: Metals are created in the chaotic, fluid environments of supernovae and stellar collisions. \n\n Using waste fabric swatches from the swatch book, we developed a sustainable yet glamorous jacket through patchwork techniques. The final garment, Stardust, reflects both creativity and conscious design.",
+    "modalTags": [
+      "Sustainable Fashion",
+      "Womenswear",
+      "Recycled Fashion",
+      "Patchwork"
+    ],
+    "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/bunko_junko-cover.jpg",
+    "modalImages": [
+      "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/bunko_junko-image-2.jpeg",
+      "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/bunko_junko-image-1.jpeg",
+      "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/bunko_junko-startdust-details.jpeg",
+      "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/bunko_junko-swatches.jpg"
+    ],
     "gradient": "linear-gradient(135deg,#E0D4C4 0%,#C8BBAA 100%)",
+    "modalGradients": [
+      "linear-gradient(135deg,#E0D4C4 0%,#C8BBAA 100%)",
+      "linear-gradient(160deg,#ECD8C8 0%,#D0BCA8 100%)",
+      "linear-gradient(135deg,#D4C8B8 0%,#BDB0A0 100%)"
+    ],
     "gridClass": "card-6"
   },
   {
     "id": "art-of-layering",
     "title": "Art of Layering",
+    "modalTitle": "Art of <em>Layering</em>",
     "year": 2023,
     "category": "STYLING",
     "type": "photo-only",
     "description": null,
+    "modalDescription": "A personal editorial project exploring how layering transforms a single garment into multiple looks. Shot in natural light with archival pieces from Mumbai's Chor Bazaar.\n\nThe 8-look editorial was featured on the institute's student showcase.",
+    "modalTags": [
+      "Styling",
+      "Editorial",
+      "Archival Fashion",
+      "Layering",
+      "Lookbook"
+    ],
     "image": null,
     "gradient": "linear-gradient(135deg,#2C2C2C 0%,#1A1A1A 100%)",
+    "modalGradients": [
+      "linear-gradient(135deg,#2C2C2C 0%,#1A1A1A 100%)",
+      "linear-gradient(160deg,#3A3A3A 0%,#222222 100%)"
+    ],
     "gridClass": "card-7"
   },
   {
-    "id": "fashion-editorial",
-    "title": "Fashion Editorial",
-    "year": 2023,
-    "category": "STYLING",
+    "id": "bunko-junko",
+    "title": "Bunko Junko",
+    "modalTitle": "Bunko <em>Junko</em>",
+    "year": 2025,
+    "category": "CRAFT EXPLORATION",
     "type": "photo-only",
     "description": null,
+    "modalDescription": "A collaborative editorial for the institute annual magazine. Concept, styling, and creative direction by Saanika Bidwe. Theme: quiet luxury — understated garments, editorial restraint, the power of negative space.\n\nPhotographed at Worli Sea Face, Mumbai.",
+    "modalTags": [],
     "image": null,
+    "modalImages": [],
     "gradient": "linear-gradient(135deg,#D4C8B8 0%,#BFB0A0 100%)",
+    "modalGradients": [
+      "linear-gradient(135deg,#D4C8B8 0%,#BFB0A0 100%)",
+      "linear-gradient(160deg,#DCCCC0 0%,#C4B4A8 100%)",
+      "linear-gradient(135deg,#C8BEB4 0%,#B0A49C 100%)"
+    ],
     "gridClass": "card-8"
-  },
-  {
-    "id": "woven-identity",
-    "title": "Woven Identity",
-    "year": 2023,
-    "category": "TEXTILE DESIGN",
-    "type": "photo-only",
-    "description": null,
-    "image": null,
-    "gradient": "linear-gradient(135deg,#C8A080 0%,#A88060 100%)",
-    "gridClass": "card-9"
   },
   {
     "id": "draping-studies",
     "title": "Draping Studies Vol. II",
+    "modalTitle": "Draping Studies <em>Vol. II</em>",
     "year": 2023,
     "category": "CONCEPT DEVELOPMENT",
     "type": "described",
     "description": "Experimental draping research exploring bias-cut techniques across natural fibres.",
+    "modalDescription": "The second volume of an ongoing draping research series, focusing on bias-cut techniques across natural fibres — linen, silk, and cotton voile.\n\nDirectly informed the structural vocabulary of the Terra collection, establishing a personal language of drape and form.",
+    "modalTags": [
+      "Draping",
+      "Bias Cut",
+      "Natural Fibres",
+      "Research",
+      "Concept Development"
+    ],
     "image": null,
     "gradient": "linear-gradient(135deg,#A0B8C8 0%,#809AAA 100%)",
+    "modalGradients": [
+      "linear-gradient(135deg,#A0B8C8 0%,#809AAA 100%)",
+      "linear-gradient(160deg,#AEC4D4 0%,#8EAABE 100%)"
+    ],
     "gridClass": "card-10"
+  },
+  {
+    "id": "noorani-collection",
+    "title": "Noorani Collection",
+    "modalTitle": "Noorani <em>Collection</em>",
+    "year": 2026,
+    "category": "COLLECTIONS",
+    "type": "photo-only",
+    "description": null,
+    "modalDescription": "A bridal and festive collection drawing from the luminous artistry of Mughal craft traditions — intricate zardozi embroidery, rich silk grounds, and sculpted silhouettes that command the room.\n\nNoorani means 'radiant' — every look channels that quality of light.",
+    "modalTags": [
+      "Bridal",
+      "Zardozi",
+      "Silk",
+      "Festive",
+      "Embroidery"
+    ],
+    "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-cover.jpg",
+    "gradient": "linear-gradient(160deg,#C8B09A 0%,#A8907A 100%)",
+    "modalGradients": [
+      "linear-gradient(160deg,#C8B09A 0%,#A8907A 100%)",
+      "linear-gradient(135deg,#D4B8A0 0%,#B49880 100%)"
+    ],
+    "gridClass": "card-12",
+    "collectionSlug": "noorani"
+  },
+  {
+    "id": "adirath-collection",
+    "title": "Adirath Collection",
+    "modalTitle": "Adirath <em>Collection</em>",
+    "year": 2026,
+    "category": "COLLECTIONS",
+    "type": "photo-only",
+    "description": null,
+    "modalDescription": "Adirath explores the intersection of traditional Indian weaving and minimalist contemporary silhouettes — handloom fabrics reimagined for the modern wardrobe.\n\nEach piece is a dialogue between heritage craft and forward-thinking design.",
+    "modalTags": [
+      "Handloom",
+      "Contemporary",
+      "Indian Craft",
+      "Womenswear",
+      "Minimal"
+    ],
+    "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-cover.jpg",
+    "gradient": "linear-gradient(160deg,#D8D0C4 0%,#B8B0A4 100%)",
+    "modalGradients": [
+      "linear-gradient(160deg,#D8D0C4 0%,#B8B0A4 100%)",
+      "linear-gradient(135deg,#E0D8CC 0%,#C0B8AC 100%)"
+    ],
+    "gridClass": "card-13",
+    "collectionSlug": "adirath"
+  },
+  {
+    "id": "artisan-sketches",
+    "title": "Artisan Sketches",
+    "modalTitle": "Artisan <em>Sketches</em>",
+    "year": 2024,
+    "category": "ILLUSTRATION",
+    "type": "photo-only",
+    "description": null,
+    "modalDescription": "A portfolio of fashion illustration studies capturing movement, drape, and proportion using ink, watercolour wash, and digital overlay.\n\nCreated during the Masaba Gupta Studio internship as visual reference material for the Festive 2024 collection briefing.",
+    "modalTags": [
+      "Fashion Illustration",
+      "Ink & Watercolour",
+      "Figure Drawing",
+      "Adobe Illustrator"
+    ],
+    "image": null,
+    "gradient": "linear-gradient(135deg,#D8CFC4 0%,#C8BBAA 100%)",
+    "modalGradients": [
+      "linear-gradient(135deg,#D8CFC4 0%,#C8BBAA 100%)",
+      "linear-gradient(160deg,#E0D8CC 0%,#C4B8A8 100%)",
+      "linear-gradient(135deg,#C8C0B4 0%,#B4A89C 100%)"
+    ],
+    "gridClass": "card-3"
   }
 ]

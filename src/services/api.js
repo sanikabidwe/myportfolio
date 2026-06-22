@@ -36,11 +36,36 @@ export const getCollection = (slug) =>
   Promise.resolve(collections.find(c => c.slug === slug) ?? null);
 
 /**
- * @param {string|null} category - filter by category string, or null/'ALL' for all projects
+ * Deterministic-per-day shuffle (Fisher-Yates seeded by date string).
+ * Cards appear in the same random order all day, then re-shuffle tomorrow.
  */
-export const getProjects = (category = null) =>
-  Promise.resolve(
-    !category || category === 'ALL'
-      ? projects
-      : projects.filter(p => p.category === category)
-  );
+function seededShuffle(arr) {
+  const seed = new Date().toDateString(); // changes once per day
+  let h = 0;
+  for (let i = 0; i < seed.length; i++) {
+    h = (Math.imul(31, h) + seed.charCodeAt(i)) | 0;
+  }
+  const rng = () => {
+    h ^= h >>> 13; h = Math.imul(h, 0x9e3779b9 | 0); h ^= h >>> 11;
+    return (h >>> 0) / 0xFFFFFFFF;
+  };
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+/**
+ * @param {string|null} category - filter by category string, or null/'ALL' for all projects
+ *
+ * ALL:   shuffled (seeded daily), all cards mixed randomly
+ * other: only cards matching that category, shuffled
+ */
+export const getProjects = (category = null) => {
+  if (!category || category === 'ALL') {
+    return Promise.resolve(seededShuffle(projects));
+  }
+  return Promise.resolve(seededShuffle(projects.filter(p => p.category === category)));
+};

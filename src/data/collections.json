@@ -9,10 +9,10 @@
     "metaCategory": "Womenswear",
     "metaYear": "2026",
     "conceptQuote": "\"Where Mughal grandeur meets the raw spirit of a warrior queen.\"",
-    "conceptBody": "Noorani is a womenswear collection rooted in the complex emotional landscape of Mughal-era India — power, devotion, tragedy, and defiance. The name, meaning <em>luminous</em> in Urdu, speaks to the radiant femininity that persists even in darkness.",
+    "conceptBody": "Inspired by the timeless character of Mastani from Bajirao Mastani, Noorani is a visual narrative of love, strength, and sacrifice. She was remembered for her love, but forgotten for the battles she fought to protect it.",
     "conceptRight": [
-      "Drawing inspiration from the cinematic world of <em>Bajirao Mastani</em>, each look channels a distinct emotional archetype — Tegh (the sword), Ehsaas (the feeling), Ulfat (affection), Deewani (the devoted), Ehad (the vow), Noorjahan (the queen of light), Qaid (captivity), and Fanaa (dissolution).",
-      "The silhouettes merge historical Indian craft traditions — zardosi embroidery, banarasi weaves, kantha work — with contemporary structural tailoring. Colours move from ivory and dust-gold through rich reds and purples to forest greens and near-black, tracing an emotional arc from vulnerability to sovereignty."
+      "The collection explores the defining phases of her journey, translating her emotions, relationships, and transformation into contemporary Indo-Western silhouettes designed for the runway. Drawing inspiration from her iconic on-screen attire, each look reimagines a chapter of her story, creating a seamless progression from warrior to lover, queen, and legend.",
+      "Through a blend of traditional influences and modern design elements, Noorani presents Mastani's story in a bold and contemporary fashion language."
     ],
     "pills": [
       "Womenswear",
@@ -22,7 +22,7 @@
       "Editorial",
       "Mughal"
     ],
-    "conceptBoardSubtitle": "Masataani · Noorani · Deewana",
+    "conceptBoardSubtitle": "Noorani · Masataani · Deewani",
     "conceptBoardImage": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-concept.jpg",
     "overviewSubtitle": "8 Womenswear Looks · SS 2026",
     "looks": [
@@ -30,49 +30,57 @@
         "number": "01",
         "name": "Tegh",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-tegh-1.jpg",
-        "description": "<em>Tegh</em> — the sword. A warrior's silhouette rendered in ivory and burnished gold. A structured bralette of hand-embroidered zardosi work sits above a fluid ivory drape skirt, the hard meets the soft, armour meets grace. Inspired by the fearless Mastani mid-duel."
+        "description": "Inspired by Mastani’s fearless warrior spirit, Tegh captures the strength that defined her. The armor like silhouette reflects her courage and unwavering presence, while the ivory and gold palette balances power with elegance. Named after the word meaning “sharp sword,” this design embodies a woman who is both graceful and formidable.",
+        "imagePos": "left"
       },
       {
         "number": "02",
         "name": "Ehsaas",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-ehsaas-2.jpg",
-        "description": "<em>Ehsaas</em> — feeling. A soft column of pale blush chiffon falls from a structured gold-embroidered corset. A voluminous ivory shawl — half-draped, half-abandoned — speaks of intimacy interrupted. The quietest look in the collection, and perhaps its most vulnerable."
+        "description": "Inspired by the moment Mastani begins to embrace her feelings, Ehsaas reflects a softer chapter of her journey. The fluid drapes and open silhouette echo her vulnerability and growing openness to love, drawing inspiration from her iconic off-shoulder attire. Yet, the structured belt remains a subtle reminder that beneath the tenderness still lives the strength and spirit of a warrior.",
+        "imagePos": "right"
       },
       {
         "number": "03",
         "name": "Ulfat",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-ulfat-3.jpg",
-        "description": "<em>Ulfat</em> — affection. A deep crimson anarkali, densely embroidered with floral zardosi, worn over a wine-red lehenga. A three-dimensional rose crowns the shoulder. Gold-ankled boots bring the look into a contemporary register, refusing pure nostalgia."
+        "description": "Ulfat marks the moment when love is no longer a feeling to be hidden but one to be embraced. The rich crimson palette symbolizes passion, while the sculpted rose detail draws inspiration from the rose Mastani holds a timeless emblem of devotion. Intricate embellishments reflect her growing desire to adorn herself for love, yet the strong silhouette and high boots remain a reminder of the fearless warrior within.",
+        "imagePos": "left"
       },
       {
         "number": "04",
         "name": "Deewani",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-deewani-4.jpg",
-        "description": "<em>Deewani</em> — the devoted. A look of all-consuming gold. A sheer tissue-silk gown is layered with tasselled fringe and paisley embroidery; a dramatic gilded halo headpiece echoes the ecstatic devotion of a kotha dancer. Intoxicating and dangerous in equal measure."
+        "description": "Deewani captures the stage where love transcends reason and becomes complete surrender. Inspired by Mastani’s iconic golden attire, the design embodies the radiance and intensity of a woman wholly consumed by her devotion to Bajirao. The flowing drape and traditional headpiece pay homage to her royal elegance, while the shimmering gold palette reflects a love so profound that it becomes her entire world.",
+        "imagePos": "right"
       },
       {
         "number": "05",
         "name": "Ehad",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-ehad-5.jpg",
-        "description": "<em>Ehad</em> — the vow. Sage-green meets burnt rose. A halter-neck kurta of kantha-embroidered dupion silk is worn over a layered lehenga of contrasting dusty rose brocade. The hooded sage dupatta recalls a bridal veil and a warrior's shield simultaneously."
+        "description": "Inspired by the moment of promise and commitment, Ehad reflects a love that has found certainty. The hooded silhouette reinterprets Mastani’s gracefully draped veil from her appearance in the royal court, while the soft palette echoes the elegance of that iconic moment. Named after the word meaning “promise,” the design symbolizes the bond sealed in their heartfelt qubool hai.",
+        "imagePos": "left"
       },
       {
         "number": "06",
         "name": "Noorjahan",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-noorjahan-6.jpg",
-        "description": "<em>Noorjahan</em> — the queen of light. Deep plum velvet over an embellished forest-green micro skirt, a long draped train of wine banarasi silk trailing behind. Ruby and pearl necklaces layer at the throat. Regal, complex, untouchable."
+        "description": "Noorjahan marks the moment when Mastani is no longer known only by her own name, but as a woman whose presence stands beside Bajirao’s. Inspired by her regal appearance, the design embraces royalty through structured shoulders, rich detailing, and a dramatic cape that flows into the skirt. It captures the grace, power, and radiance of a queen who commands both admiration and respect.",
+        "imagePos": "right"
       },
       {
         "number": "07",
         "name": "Qaid",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-kaid-7.jpg",
-        "description": "<em>Qaid</em> — captivity. A cropped velvet jacket in dark wine over a midriff-baring bralette, paired with draped harem trousers in deep tobacco-brown printed silk. Heavy ankle cuffs and green-stone jewels complete a look that makes captivity look like a choice."
+        "description": "Qaid captures a chapter of resilience in the face of adversity. Inspired by the period of Mastani’s captivity, the design reflects her unwavering courage and determination to protect what she loved. The structured jacket symbolizes her inner strength, while the dhoti silhouette allows freedom of movement, echoing the spirit of a warrior who refused to be broken by her circumstances.",
+        "imagePos": "left"
       },
       {
         "number": "08",
         "name": "Fanaa",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-fanaa-8.jpg",
-        "description": "<em>Fanaa</em> — dissolution. The collection ends in dark forest green and near-black. A raw-hemmed asymmetric kurta dress in olive tissue-silk, layered with a dark banarasi border, worn with embroidered black equestrian boots. The fire has burnt everything away. Only the dress remains."
+        "description": "Fanaa marks the final chapter of Mastani’s journey a love so profound that it transcends life itself. Inspired by her appearance in her last moments, the design reinterprets the layered silhouette and symbolic iron chain into an ornate neckline that speaks of devotion rather than restraint. The commanding boots represent the immense strength it took to endure her path, making this look a tribute to a woman who chose love until her very last breath.",
+        "imagePos": "right"
       }
     ],
     "lineupTitle": "All Eight Looks",
@@ -85,17 +93,15 @@
     "slug": "adirath",
     "title": "Adirath",
     "eyebrow": "Fashion Collection · 2026",
-    "heroImage": null,
+    "heroImage": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-inspiration.jpg",
     "metaDesigner": "Saanika Bidwe",
-    "metaLooks": "Coming Soon",
+    "metaLooks": "8 Looks",
     "metaCategory": "Menswear",
     "metaYear": "2026",
-    "conceptLabel": "The Concept",
     "conceptQuote": "\"Where ancient armour becomes modern poetry.\"",
-    "conceptBody": "Adirath is a menswear collection that explores the duality of strength and vulnerability through the lens of ancient Indian warrior culture. The name means <em>great charioteer</em> in Sanskrit — a nod to those who carry others into battle.",
+    "conceptBody": "Adhirath is an Indo-Western menswear collection inspired by the legendary journey of Bajirao, as portrayed in Bajirao Mastani. The collection explores the many facets of his character his courage as a warrior, his devotion as a lover, his strength as a leader, and the emotional turmoil that shaped his destiny.",
     "conceptRight": [
-      "The collection draws from Mahabharata-era silhouettes, reinterpreting the dhoti-kurta and angavastram through a contemporary tailoring lens. Heavy linens meet hand-block printed cottons, structured shoulders echo pauldrons, and raw edges speak of battles yet to be fought.",
-      "The palette centres on raw sand, undyed khadi, deep indigo, aged iron, and burnished bronze — materials that tell the story of men who shaped history with their hands."
+      "Drawing inspiration from the film's visual grandeur, royal aesthetics, and Bajirao's evolving persona, the collection reinterprets traditional Maratha influences through contemporary silhouettes. Each ensemble reflects a distinct phase of his journey, blending heritage craftsmanship with modern design to create a narrative of power, passion, sacrifice, and legacy."
     ],
     "pills": [
       "Menswear",
@@ -107,16 +113,70 @@
     ],
     "conceptBoardLabel": "Mood & Research",
     "conceptBoardTitle": "Concept Board",
-    "conceptBoardSubtitle": "Ancient Warrior · Modern Poet",
-    "conceptBoardImage": null,
-    "overviewLabel": "The Looks",
-    "overviewTitle": "Full Collection",
-    "overviewSubtitle": "Coming Soon · SS 2026",
-    "looks": [],
-    "lineupLabel": "The Full Lineup",
-    "lineupTitle": "Collection Preview",
+    "conceptBoardSubtitle": "Adirath · Bajirao · Peshwa",
+    "conceptBoardImage": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-concept.jpeg",
+    "overviewSubtitle": "8 Looks",
+    "looks": [
+      {
+        "number": "01",
+        "name": "Kshatriya",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-kshatriya-1.jpg",
+        "description": "Kshatriya marks the rise of Bajirao the fearless warrior whose identity was forged on the battlefield long before it was tested by love. Rooted in strength, discipline, and honor, this look reimagines the grandeur of a warrior's armor through a contemporary Indo-Western lens. Metallic embellishments and dangling details echo the movement of battle gear, while the embellished scarf reflects the regal drape of a Maratha commander. The chained eyewear serves as a subtle tribute to the warrior's headgear, carrying fragments of his legacy into the present. Powerful yet refined, the ensemble captures the spirit of a Kshatriya - a man destined to lead, conquer, and leave his mark on history.",
+        "imagePos": "left"
+      },
+      {
+        "number": "02",
+        "name": "Agaaz",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-agaaz-2.jpg",
+        "description": "Aagaaz represents the beginning of a transformation—the moment when the warrior encounters a love powerful enough to alter the course of his destiny. As Bajirao meets Mastani, the armor begins to soften, revealing the man beneath the legend. The printed blouson draws inspiration from the motifs of his royal attire, while the reduced layering symbolizes emotional openness and vulnerability. The silhouette feels lighter, freer, and more personal, reflecting a heart slowly making room for love amidst duty and power. Finished with simple eyewear, the look signifies clarity—a Bajirao who chooses to present himself exactly as he is, unguarded and unapologetically true.",
+        "imagePos": "right"
+      },
+      {
+        "number": "03",
+        "name": "Ulfat",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-ulfat-3.jpg",
+        "description": "Ulfat captures the stage where love ceases to be a distraction and becomes a devotion. The warrior who once carried the weight of an empire now finds his thoughts occupied by a single presence Mastani. The open silhouette and relaxed dhoti drape symbolize a gradual release from the rigid expectations of power and status, revealing a man guided by emotion rather than duty. Rich adornments remain, echoing his royal identity, yet they are worn with an effortless ease that speaks of newfound freedom. Finished with heart-shaped eyewear, the look becomes a playful yet symbolic expression of a heart completely surrendered to love.",
+        "imagePos": "left"
+      },
+      {
+        "number": "04",
+        "name": "Bekhudi",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-bekhudi-4.jpg",
+        "description": "Bekhudi represents the intoxicating stage of love where reason begins to blur and devotion takes control. Lost in Mastani's presence, Bajirao no longer moves with the calculated restraint of a ruler but with the abandon of a man consumed by emotion. The ensemble retains the grandeur of a king through its ornate embellishments and regal detailing, yet its fluid construction and softened structure reflect a growing detachment from responsibility and worldly expectations. It is a portrait of a warrior-king caught between crown and heart, drifting deeper into a love so powerful that it makes him forget everything but her.",
+        "imagePos": "right"
+      },
+      {
+        "number": "05",
+        "name": "Ehad",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-ehad-5.jpg",
+        "description": "Ehad - meaning a promise ,marks the moment when love matures into commitment. No longer lost in the intoxication of emotion, Bajirao begins to understand the weight of the choices he has made. The layered construction reflects this growing awareness, symbolizing the many roles he must now carry as a warrior, a ruler, and a lover. Inspired by the hues and grandeur of his royal attire, the ensemble retains a sense of romance while embracing responsibility. The statement belt acts as a visual anchor, representing his renewed connection to the kingdom and the duties that await him. Enhanced with ornate eyewear, the look embodies a king who has accepted both the privileges and burdens of his crown without turning away from love.",
+        "imagePos": "left"
+      },
+      {
+        "number": "06",
+        "name": "Peshwa",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-peshwa-6.jpg",
+        "description": "Peshwa represents the culmination of Bajirao's journey a man who has learned to balance the demands of the throne with the desires of his heart. The silhouette reflects authority and confidence, while the structured styling signifies a ruler fully aware of his responsibilities. A tie-inspired detail introduces a sense of discipline and purpose, symbolizing his unwavering commitment to the kingdom. Draped fabric elements intertwine with the garment, serving as a metaphor for his bond with Mastani inseparable yet harmonious. Rich in regal grandeur and contemporary expression, the look portrays Bajirao not merely as a lover or a warrior, but as a Peshwa who carries both love and duty with equal strength and maturity.",
+        "imagePos": "right"
+      },
+      {
+        "number": "07",
+        "name": "Virah",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-virah-7.jpg",
+        "description": "Virah embodies the agony of separation ,the stage where love remains, but its presence can no longer be felt. As Bajirao's world begins to unravel, he clings to the memory of Mastani with a devotion stronger than life itself. The deconstructed drape and fluid trouser silhouette reflect a man whose reality is slowly slipping away, mirroring the chaos and helplessness of a heart consumed by longing. Inspired by the sacred thread worn by Bajirao, the fastening detail becomes a powerful symbol of his final struggle, as though his life itself hangs by a single string. The spiral eyewear echoes the blurred line between reality and illusion, capturing the visions and memories that accompany him in his final moments. It is a portrait of a warrior brought to his knees not by battle, but by separation.",
+        "imagePos": "left"
+      },
+      {
+        "number": "08",
+        "name": "Fanaa",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-fanaa-8.jpg",
+        "description": "Fanaa marks the final chapter of Bajirao's journey, a love so profound that it transcends life itself. In this stage, the warrior, the ruler, and the lover dissolve into memory, leaving behind only devotion. The flowing white silhouette evokes purity, surrender, and the soul's release from the mortal world, creating an ethereal presence that feels suspended between earth and eternity. Soft, luminous tones replace the intensity of earlier stages, while a deep red adornment rests close to the heart ,a quiet reminder of Ulfat, the love that remained with him until his final breath. Pearl-like drops and delicate details evoke tears left unspoken, carrying the weight of longing, sacrifice, and remembrance. Fanaa is not an ending, but a union beyond life a testament to a love that neither time, distance, nor death could erase.",
+        "imagePos": "right"
+      }
+    ],
+    "lineupTitle": "All Eight Looks",
     "lineupSubtitle": "Images releasing soon",
-    "lineupImage": null,
+    "lineupImage": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-collection.jpg",
     "nextSlug": "entangled-souls",
     "nextTitle": "The Entangled Souls"
   },
@@ -124,17 +184,16 @@
     "slug": "entangled-souls",
     "title": "The Entangled Souls",
     "eyebrow": "Fashion Collection · 2026",
-    "heroImage": null,
+    "heroImage": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-inspiration.jpeg",
     "metaDesigner": "Saanika Bidwe",
-    "metaLooks": "Coming Soon",
+    "metaLooks": "8 Looks",
     "metaCategory": "Womenswear",
     "metaYear": "2026",
     "conceptLabel": "The Concept",
-    "conceptQuote": "\"Two bodies, one spirit — where love dissolves the self.\"",
-    "conceptBody": "The Entangled Souls is a womenswear collection exploring the philosophy of <em>advaita</em> — non-duality — through fashion. Each garment is designed to feel incomplete alone, only revealing its full form when worn in relationship to another piece.",
+    "conceptQuote": "\"The universe has a peculiar way of testing the souls it intends to unite.\"",
+    "conceptBody": "The Entangled Souls is a surrealist eveningwear collection inspired by the belief that certain souls are destined to meet, separate, evolve, and reunite through the guidance of the universe.",
     "conceptRight": [
-      "Inspired by the mystical poetry of Mirabai and Rumi, the collection uses fabric manipulation — interlocking cuts, shared seams, dual-sided garments — to create pieces that physically enact the concept of interconnection.",
-      "The palette centres on deep indigo, midnight purple, and silver-white — the colours of night sky and moonlight, of the space between two people who have become one."
+      "Through a series of paired menswear and womenswear looks, the collection transforms invisible connections, karmic lessons, and spiritual journeys into wearable narratives. Combining symbolic draping, embroidery, and contemporary runway silhouettes, each garment represents a stage in the eternal cycle of soul connection."
     ],
     "pills": [
       "Womenswear",
@@ -147,15 +206,72 @@
     "conceptBoardLabel": "Mood & Research",
     "conceptBoardTitle": "Concept Board",
     "conceptBoardSubtitle": "Advaita · Mirabai · Rumi",
-    "conceptBoardImage": null,
+    "conceptBoardImage": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-concept.jpg",
     "overviewLabel": "The Looks",
     "overviewTitle": "Full Collection",
     "overviewSubtitle": "Coming Soon · SS 2026",
-    "looks": [],
+    "looks": [
+      {
+        "number": "01",
+        "name": "Astral Void",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-astral_void-1.jpg",
+        "description": "A solitary soul drifts through the infinite cosmos, unaware of the connection destined to shape its journey. Celestial embroidery, flowing drapes, and infinity-inspired silhouettes reflect the vastness of the universe and the endless search for purpose.",
+        "imagePos": "left"
+      },
+      {
+        "number": "02",
+        "name": "Red Thread theory",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-the_red_thread_theory-2.jpg",
+        "description": "An invisible thread of fate begins guiding two souls toward one another. Asymmetrical silhouettes symbolize their incomplete awareness, while the connecting red thread represents a bond that exists beyond time, distance, and understanding.",
+        "imagePos": "right"
+      },
+      {
+        "number": "03",
+        "name": "Cosmic Pull",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-cosmic_pull-3.jpg",
+        "description": "As destiny strengthens, the universe repeatedly draws two souls into each other's orbit. Multiple red threads and gathered ruffles symbolize the growing magnetic force, reflecting both the uncertainty and the irresistible pull of a connection yet to be understood.",
+        "imagePos": "left"
+      },
+      {
+        "number": "04",
+        "name": "Soul Recognition",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-the_soul_recognition-4.jpg",
+        "description": "The soul no longer questions what the heart already knows. Crimson hues, connected heart motifs, and transparent embroidered details symbolize passion, vulnerability, and the moment two souls consciously recognize their bond.",
+        "imagePos": "right"
+      },
+      {
+        "number": "05",
+        "name": "Test of Souls",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-test_of_souls-5.jpg",
+        "description": "Every soul connection must endure the lessons designed by the universe. Structured black layers conceal the red foundation beneath, representing misunderstandings, ego, and challenges, while the breaking threads signify a bond being tested but not destroyed.",
+        "imagePos": "left"
+      },
+      {
+        "number": "06",
+        "name": "Unfinished Soul Connection",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-unfinished_soul_connection-6.jpg",
+        "description": "Separation creates distance, but not disconnection. The monochromatic palette reflects emotional darkness, while fractured fastening details held together by delicate red threads symbolize hope and a connection that remains unfinished.",
+        "imagePos": "right"
+      },
+      {
+        "number": "07",
+        "name": "Soul Reconciliation",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-soul_reconciliation-7.jpg",
+        "description": "Having endured growth, loss, and transformation, two souls find their way back to one another. A pure white palette, golden embroidered hands, and a connecting thread symbolize reunion, healing, and divine timing.",
+        "imagePos": "left"
+      },
+      {
+        "number": "08",
+        "name": "Beyond Infinity",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-beyond_infinity-8.jpg",
+        "description": "The journey reaches its highest form as two souls become eternally intertwined. Infinite flowing drapes connect both garments, while white and gold symbolize spiritual fulfillment, unity, and a bond that transcends time, space, and destiny.",
+        "imagePos": "right"
+      }
+    ],
     "lineupLabel": "The Full Lineup",
     "lineupTitle": "Collection Preview",
     "lineupSubtitle": "Images releasing soon",
-    "lineupImage": null,
+    "lineupImage": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-collection-1.jpg",
     "nextSlug": null,
     "nextTitle": null
   }

@@ -7,7 +7,7 @@ import Education from '../components/sections/Education';
 import Experience from '../components/sections/Experience';
 import Skills from '../components/sections/Skills';
 import Awards from '../components/sections/Awards';
-import Journal from '../components/sections/Journal';
+// import Journal from '../components/sections/Journal';
 import Testimonials from '../components/sections/Testimonials';
 
 export default function Home() {
@@ -37,7 +37,7 @@ export default function Home() {
       <Experience experience={data.experience} />
       <Skills skills={data.skills} />
       <Awards awards={data.awards} />
-      <Journal posts={data.journal} />
+      {/* <Journal posts={data.journal} /> */}
       <Testimonials testimonials={data.testimonials} />
     </>
   );

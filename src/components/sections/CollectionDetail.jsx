@@ -94,10 +94,6 @@ export default function CollectionDetail({ collection }) {
           </h1>
           <div className="cd-hero__meta">
             <div className="cd-hero__meta-item">
-              Designer<span>{metaDesigner}</span>
-            </div>
-            <div className="cd-hero__divider" />
-            <div className="cd-hero__meta-item">
               Collection<span>{metaLooks}</span>
             </div>
             <div className="cd-hero__divider" />
@@ -187,11 +183,18 @@ export default function CollectionDetail({ collection }) {
                   onClick={() => look.image && openLb(look.image, look.name)}
                 >
                   {look.image ? (
-                    <img
-                      className="cd-look-card__img"
-                      src={look.image}
-                      alt={`Look ${look.number} — ${look.name}`}
-                    />
+                    <>
+                      <img
+                        className="cd-look-card__img"
+                        src={look.image}
+                        alt={`Look ${look.number} — ${look.name}`}
+                      />
+                      {/* Hover overlay — signals the image is clickable */}
+                      <div className="cd-look-card__view-overlay" aria-hidden="true">
+                        <div className="cd-look-card__view-icon" />
+                        <span className="cd-look-card__view-label">View</span>
+                      </div>
+                    </>
                   ) : (
                     <div className="cd-look-card__placeholder">
                       <span className="cd-look-card__placeholder-num">{look.number}</span>
@@ -202,14 +205,14 @@ export default function CollectionDetail({ collection }) {
 
                 {/* Text side */}
                 <div className="cd-look-card__content">
-                  <span className="cd-look-card__number">{look.number}</span>
+                  {/* Decorative background number — absolutely positioned, out of flow */}
+                  <span className="cd-look-card__number" aria-hidden="true">{look.number}</span>
                   <p className="cd-look-card__label">Look {look.number}</p>
                   <h3 className="cd-look-card__name">{look.name}</h3>
                   <p
                     className="cd-look-card__desc"
                     dangerouslySetInnerHTML={{ __html: look.description }}
                   />
-
                 </div>
               </div>
             ))
@@ -239,7 +242,7 @@ export default function CollectionDetail({ collection }) {
       </section>
 
       {/* ══════════════════ BACK / NEXT BAR ════════════════════ */}
-      <div className="cd-nav-bar">
+      {/* <div className="cd-nav-bar">
         <div className="cd-nav-bar__inner">
           <button className="cd-back-link" onClick={() => navigate('/work')}>
             Back to All Work
@@ -253,7 +256,7 @@ export default function CollectionDetail({ collection }) {
             </button>
           )}
         </div>
-      </div>
+      </div> */}
 
       {/* ══════════════════ LIGHTBOX ═══════════════════════════ */}
       <div

@@ -19,20 +19,25 @@ export default function Navbar() {
   }, [location]);
 
   const isHome = location.pathname === '/';
+  const isCollection = location.pathname.startsWith('/collection/');
+
+  // Pages with a dark full-screen hero (Home, Collection detail) start transparent.
+  // Work and Contact are plain light pages — always solid so elements are always visible.
+  const isSolid = (!isHome && !isCollection) || scrolled;
 
   const closeMenu = () => setMenuOpen(false);
 
   return (
-    <nav className={`navbar${scrolled ? ' scrolled' : ''}${menuOpen ? ' menu-open' : ''}`}>
+    <nav className={`navbar${isSolid ? ' scrolled' : ''}${menuOpen ? ' menu-open' : ''}`}>
       <Link to="/" className="nav-logo" onClick={closeMenu}>
-        S<span className="nav-logo-sup">s</span>
+        S<span className="nav-logo-sup">b</span>
       </Link>
 
       {/* Desktop links */}
       <ul className="nav-links">
         <li><Link to="/" className={isHome ? 'active' : ''}>Home</Link></li>
-        <li><a href={isHome ? '#education' : '/#education'}>Education</a></li>
-        <li><a href={isHome ? '#experience' : '/#experience'}>Experience</a></li>
+        {/* <li><a href={isHome ? '#education' : '/#education'}>Education</a></li>
+        <li><a href={isHome ? '#experience' : '/#experience'}>Experience</a></li> */}
         <li><Link to="/work" className={location.pathname === '/work' ? 'active' : ''}>Work</Link></li>
         <li><Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>Contact</Link></li>
       </ul>
@@ -52,8 +57,8 @@ export default function Navbar() {
       <div className={`nav-mobile-drawer${menuOpen ? ' open' : ''}`}>
         <ul className="nav-mobile-links">
           <li><Link to="/" className={isHome ? 'active' : ''} onClick={closeMenu}>Home</Link></li>
-          <li><a href={isHome ? '#education' : '/#education'} onClick={closeMenu}>Education</a></li>
-          <li><a href={isHome ? '#experience' : '/#experience'} onClick={closeMenu}>Experience</a></li>
+          {/* <li><a href={isHome ? '#education' : '/#education'} onClick={closeMenu}>Education</a></li>
+          <li><a href={isHome ? '#experience' : '/#experience'} onClick={closeMenu}>Experience</a></li> */}
           <li><Link to="/work" className={location.pathname === '/work' ? 'active' : ''} onClick={closeMenu}>Work</Link></li>
           <li><Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''} onClick={closeMenu}>Contact</Link></li>
         </ul>

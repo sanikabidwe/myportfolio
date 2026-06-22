@@ -32,7 +32,8 @@
   transition: color 0.4s ease;
 }
 
-.navbar.scrolled .nav-logo {
+.navbar.scrolled .nav-logo,
+.navbar.menu-open .nav-logo {
   color: var(--charcoal);
 }
 
@@ -52,7 +53,7 @@
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: rgba(250, 248, 245, 0.85);
+  color: rgba(145, 145, 145, 0.85);
   text-decoration: none;
   position: relative;
   padding-bottom: 2px;
@@ -108,7 +109,8 @@
   transform-origin: center;
 }
 
-.navbar.scrolled .nav-hamburger span {
+.navbar.scrolled .nav-hamburger span,
+.navbar.menu-open .nav-hamburger span {
   background: var(--charcoal);
 }
 
