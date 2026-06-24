@@ -11,6 +11,8 @@
   background: transparent;
   border-bottom: 1px solid transparent;
   transition: background 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
+  pointer-events: none;
+  /* bar itself is not clickable */
 }
 
 .navbar.scrolled {
@@ -21,6 +23,8 @@
 }
 
 .nav-logo {
+  width: 3%;
+  height: 2%;
   font-family: var(--font-display);
   font-size: 28px;
   font-weight: 600;
@@ -30,11 +34,13 @@
   position: relative;
   z-index: 110;
   transition: color 0.4s ease;
+  pointer-events: auto;
+  /* explicitly clickable */
 }
 
 .nav-logo img {
-  width: 2%;
-  height: auto;
+  width: 100%;
+  height: 70%;
   object-fit: cover;
 }
 
@@ -53,6 +59,8 @@
   display: flex;
   gap: 40px;
   list-style: none;
+  pointer-events: auto;
+  /* links are clickable */
 }
 
 .nav-links a {
@@ -104,6 +112,8 @@
   cursor: pointer;
   padding: 4px;
   z-index: 110;
+  pointer-events: auto;
+  /* hamburger is clickable */
 }
 
 .nav-hamburger span {
@@ -147,6 +157,8 @@
   transition: transform 0.4s cubic-bezier(0.77, 0, 0.18, 1);
   z-index: 105;
   border-bottom: 1px solid rgba(200, 169, 110, 0.2);
+  pointer-events: auto;
+  /* drawer content is clickable */
 }
 
 .nav-mobile-drawer.open {

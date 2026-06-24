@@ -87,6 +87,7 @@
 
 /* BIG artistic quote */
 .about-quote-big {
+  width: 100%;
   font-family: var(--font-display);
   font-style: italic;
   font-weight: 300;
@@ -97,6 +98,7 @@
   position: relative;
   z-index: 1;
   letter-spacing: -0.5px;
+  text-align: justify;
 }
 
 .about-quote-big em {
