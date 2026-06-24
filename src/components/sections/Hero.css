@@ -54,9 +54,11 @@
 }
 
 .hero-name {
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
+  font-family: "Abril Fatface", serif;
   font-size: clamp(64px, 10vw, 280px);
-  font-weight: bolder;
+  font-weight: 400;
+  font-style: normal;
   line-height: 0.92;
   letter-spacing: 10px;
   color: var(--off-white);

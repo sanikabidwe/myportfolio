@@ -8,11 +8,15 @@ export default function About({ profile }) {
 
   return (
     <section id="about" className="about-section">
-      <h2 className="section-title">About</h2>
-      <div className="gold-rule" />
+      {/* Section title sits above the two-column grid */}
+      <div className="about-section-header">
+        <h2 className="section-title">About</h2>
+        <div className="gold-rule" />
+      </div>
+
       <div className="about-inner">
 
-        {/* Left — profile photo */}
+        {/* Left — sticky profile photo */}
         <div className="about-photo-col">
           {photo
             ? <img src={photo} alt="Saanika Bidwe" className="about-photo" />
@@ -20,11 +24,32 @@ export default function About({ profile }) {
           }
         </div>
 
-        {/* Right — quote + bio */}
-        <div className="about-content">
-          <blockquote className="about-quote">"{about.quote}"</blockquote>
-          {about.bio.map((para, i) => <p key={i}>{para}</p>)}
-          <p className="about-aspiration">{about.aspiration}</p>
+        {/* Right — artistic typographic layout */}
+        <div className="about-text-col">
+          {/* Decorative ghost open-quote */}
+          <span className="about-open-mark">&ldquo;</span>
+
+          {/* Big italic quote with highlighted word */}
+          <p className="about-quote-big">
+            Through design, I seek to transform<br />
+            stories, emotions, and ideas into<br />
+            <em>meaningful</em> fashion experiences<br />
+            that balance creativity, craftsmanship,<br />
+            and contemporary aesthetics.
+          </p>
+
+          {/* Gold rule separator */}
+          <div className="about-rule" />
+
+          {/* Two-column tiny bio (museum placard style) */}
+          <div className="about-bio-block">
+            {about.bio.slice(0, 2).map((para, i) => (
+              <p key={i}>{para}</p>
+            ))}
+          </div>
+
+          {/* Aspiration line */}
+          <p className="about-aspiration-tag">{about.aspiration}</p>
         </div>
 
       </div>

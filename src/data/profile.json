@@ -1,13 +1,23 @@
 {
   "name": "Saanika Bidwe",
   "monogram": "SB",
+  "logo": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/logos/website-logo.png",
   "tagline": "Fashion Designer · Creative Thinker · Visual Storyteller",
   "email": "sanikabidwe2004@gmail.com",
-  "social": {
-    "instagram": "#",
-    "linkedin": "#",
-    "behance": "#"
-  },
+  "social": [
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "icon": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/logos/linkedin.png",
+      "accountUrl": "#"
+    },
+    {
+      "id": "behance",
+      "name": "Behance",
+      "icon": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/logos/behance.png",
+      "accountUrl": "#"
+    }
+  ],
   "about": {
     "quote": "Through design, I seek to transform stories, emotions, and ideas into meaningful fashion experiences that balance creativity, craftsmanship, and contemporary aesthetics.",
     "bio": [

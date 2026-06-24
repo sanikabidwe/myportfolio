@@ -8,6 +8,8 @@ import Home from './pages/Home';
 import Work from './pages/Work';
 import Contact from './pages/Contact';
 import CollectionPage from './pages/CollectionPage';
+import { getProfile } from './services/api';
+import { useState } from 'react';
 
 /** Apply configs.json values as CSS custom properties on :root */
 function applyTheme() {
@@ -15,24 +17,24 @@ function applyTheme() {
   const { colors, typography, spacing } = config;
 
   // Colors
-  root.style.setProperty('--off-white',  colors.offWhite);
-  root.style.setProperty('--charcoal',   colors.charcoal);
-  root.style.setProperty('--gold',       colors.gold);
+  root.style.setProperty('--off-white', colors.offWhite);
+  root.style.setProperty('--charcoal', colors.charcoal);
+  root.style.setProperty('--gold', colors.gold);
   root.style.setProperty('--gold-light', colors.goldLight);
-  root.style.setProperty('--beige',      colors.beige);
-  root.style.setProperty('--beige-light',colors.beigeLight);
+  root.style.setProperty('--beige', colors.beige);
+  root.style.setProperty('--beige-light', colors.beigeLight);
   root.style.setProperty('--beige-dark', colors.beigeDark);
-  root.style.setProperty('--muted',      colors.muted);
+  root.style.setProperty('--muted', colors.muted);
 
   // Typography
   root.style.setProperty('--font-display', typography.fontDisplay);
-  root.style.setProperty('--font-hero',    typography.fontHero);
-  root.style.setProperty('--font-body',    typography.fontBody);
-  root.style.setProperty('--font-label',   typography.fontLabel);
-  root.style.setProperty('--font-sans',    typography.fontSans);
+  root.style.setProperty('--font-hero', typography.fontHero);
+  root.style.setProperty('--font-body', typography.fontBody);
+  root.style.setProperty('--font-label', typography.fontLabel);
+  root.style.setProperty('--font-sans', typography.fontSans);
 
   // Spacing
-  root.style.setProperty('--section-padding-y',   spacing.sectionPaddingY);
+  root.style.setProperty('--section-padding-y', spacing.sectionPaddingY);
   root.style.setProperty('--container-max-width', spacing.containerMaxWidth);
   root.style.setProperty('--container-padding-x', spacing.containerPaddingX);
 }
@@ -45,12 +47,18 @@ function ScrollToTop() {
 }
 
 export default function App() {
-  useEffect(() => { applyTheme(); }, []);
+  const [profile, setProfile] = useState(null);
+  useEffect(() => {
+    applyTheme();
+    getProfile().then(data => {
+      setProfile(data)
+    })
+  }, []);
 
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <Navbar />
+      <Navbar profile={profile} />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/work" element={<Work />} />

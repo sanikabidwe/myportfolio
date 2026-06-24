@@ -1,27 +1,45 @@
+/* ───── ABOUT — Artistic Edition ───── */
 .about-section {
   padding: 120px 0;
-  background: var(--off-white);
+  background: var(--charcoal);
 }
 
+/* Section title sits above the two-column inner grid */
+.about-section-header {
+  text-align: center;
+  padding: 0 60px 60px;
+}
+
+.about-section-header .section-title {
+  margin-bottom: 12px;
+  color: var(--gold-light);
+}
+
+.about-section-header .gold-rule {
+  margin-bottom: 0;
+}
+
+/* Two-column inner layout */
 .about-inner {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 60px;
   display: grid;
-  grid-template-columns: 1fr 1.4fr;
+  grid-template-columns: 38% 1fr;
   gap: 80px;
-  align-items: start;
+  align-items: stretch;
 }
 
 /* ── Left: profile photo ── */
 .about-photo-col {
-  position: sticky;
-  top: 120px;
+  position: static !important;
+  align-self: stretch;
 }
 
 .about-photo {
   width: 100%;
-  aspect-ratio: 3 / 4;
+  height: 100%;
+  min-height: 480px;
   object-fit: cover;
   object-position: center top;
   display: block;
@@ -30,7 +48,8 @@
 
 .about-photo-placeholder {
   width: 100%;
-  aspect-ratio: 3 / 4;
+  height: 100%;
+  min-height: 480px;
   background: var(--beige-dark);
   display: flex;
   align-items: center;
@@ -40,41 +59,96 @@
   font-size: 14px;
   color: var(--muted);
   letter-spacing: 2px;
+  border-radius: 10px;
 }
 
-/* ── Right: quote + bio ── */
-.about-quote {
+/* ── Right: artistic typography column ── */
+.about-text-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 40px 0;
+  position: relative;
+}
+
+/* Decorative ghost open-quote */
+.about-open-mark {
+  font-family: var(--font-display);
+  font-size: 200px;
+  line-height: 0.5;
+  color: var(--muted);
+  opacity: 0.18;
+  position: absolute;
+  top: 0px;
+  left: -8px;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* BIG artistic quote */
+.about-quote-big {
   font-family: var(--font-display);
   font-style: italic;
-  font-size: clamp(20px, 2.5vw, 28px);
   font-weight: 300;
+  font-size: clamp(22px, 3vw, 44px);
   line-height: 1.2;
-  color: var(--charcoal);
-  border-left: 2px solid var(--gold);
-  padding-left: 28px;
-  margin-bottom: 40px;
+  color: var(--muted);
+  margin-bottom: 80px;
+  position: relative;
+  z-index: 1;
+  letter-spacing: -0.5px;
 }
 
-.about-content p {
-  font-size: 15px;
-  line-height: 1.5;
-  color: #4A4540;
+.about-quote-big em {
+  color: var(--gold);
+  font-style: normal;
+}
+
+/* Gold rule separator */
+.about-rule {
+  width: 48px;
+  height: 1px;
+  background: var(--gold);
+  margin-bottom: 32px;
+}
+
+/* Tiny two-column bio (museum placard style) */
+.about-bio-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 40px;
+  margin-bottom: 36px;
+}
+
+.about-bio-block p {
+  font-size: 11px;
+  letter-spacing: 0.4px;
+  line-height: 1.85;
   text-align: justify;
-  margin-bottom: 24px;
+  color: #6A6460;
+  font-family: var(--font-body);
 }
 
-.about-aspiration {
-  font-family: var(--font-display) !important;
+/* Aspiration line */
+.about-aspiration-tag {
+  display: inline-block;
+  font-family: var(--font-display);
   font-style: italic;
-  font-size: 17px !important;
-  color: var(--muted) !important;
-  margin-top: 8px;
+  font-size: 13px;
+  color: var(--muted);
+  border-top: 1px solid var(--beige-dark);
+  padding-top: 20px;
+  max-width: 540px;
 }
 
 /* ── Tablet ── */
 @media (max-width: 768px) {
   .about-section {
     padding: 80px 0;
+  }
+
+  .about-section-header {
+    padding: 0 32px 48px;
   }
 
   .about-inner {
@@ -84,13 +158,32 @@
   }
 
   .about-photo-col {
-    position: static;
+    /* already non-sticky */
   }
 
   .about-photo,
   .about-photo-placeholder {
+    height: auto;
+    min-height: unset;
     aspect-ratio: 3 / 4;
     object-position: center center;
+  }
+
+  .about-text-col {
+    padding: 20px 0;
+  }
+
+  .about-open-mark {
+    font-size: 140px;
+  }
+
+  .about-bio-block {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .about-bio-block p {
+    font-size: 12px;
   }
 }
 
@@ -100,12 +193,19 @@
     padding: 64px 0;
   }
 
+  .about-section-header {
+    padding: 0 20px 40px;
+  }
+
   .about-inner {
     padding: 0 20px;
   }
 
-  .about-quote {
-    padding-left: 20px;
-    font-size: 18px;
+  .about-quote-big {
+    margin-bottom: 48px;
+  }
+
+  .about-open-mark {
+    font-size: 100px;
   }
 }

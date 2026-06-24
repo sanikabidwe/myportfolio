@@ -32,6 +32,12 @@
   transition: color 0.4s ease;
 }
 
+.nav-logo img {
+  width: 2%;
+  height: auto;
+  object-fit: cover;
+}
+
 .navbar.scrolled .nav-logo,
 .navbar.menu-open .nav-logo {
   color: var(--charcoal);

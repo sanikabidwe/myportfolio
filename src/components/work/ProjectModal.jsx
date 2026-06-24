@@ -51,8 +51,8 @@ export default function ProjectModal({ project, onClose }) {
 
   const total = slides.length;
 
-  const prevSlide = () => setSlide(s => (s - 1 + total) % total);
-  const nextSlide = () => setSlide(s => (s + 1) % total);
+  const prevSlide = () => setSlide(s => Math.max(0, s - 1));
+  const nextSlide = () => setSlide(s => Math.min(total - 1, s + 1));
 
   const handleOverlayClick = (e) => {
     if (e.target === overlayRef.current) onClose();
@@ -77,14 +77,11 @@ export default function ProjectModal({ project, onClose }) {
 
         {/* ── LEFT: sticky image gallery ── */}
         <div className="pm-gallery">
-          <div
-            className="pm-slides"
-            style={{ transform: `translateX(-${slide * 100}%)` }}
-          >
+          <div className="pm-slides">
             {slides.map((s, i) => (
               <div
                 key={i}
-                className="pm-slide"
+                className={`pm-slide${i === slide ? ' active' : ''}`}
                 style={s.type === 'gradient' ? { background: s.src } : {}}
               >
                 {s.type === 'image' && (
@@ -101,8 +98,18 @@ export default function ProjectModal({ project, onClose }) {
 
           {total > 1 && (
             <>
-              <button className="pm-arrow pm-arrow-prev" onClick={prevSlide} aria-label="Previous image">&#8592;</button>
-              <button className="pm-arrow pm-arrow-next" onClick={nextSlide} aria-label="Next image">&#8594;</button>
+              <button
+                className="pm-arrow pm-arrow-prev"
+                onClick={prevSlide}
+                disabled={slide === 0}
+                aria-label="Previous image"
+              >&#8592;</button>
+              <button
+                className="pm-arrow pm-arrow-next"
+                onClick={nextSlide}
+                disabled={slide === total - 1}
+                aria-label="Next image"
+              >&#8594;</button>
               <div className="pm-dots">
                 {slides.map((_, i) => (
                   <button

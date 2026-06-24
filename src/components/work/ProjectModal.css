@@ -54,27 +54,32 @@
 }
 
 .pm-slides {
-  display: flex;
+  position: relative;
+  width: 100%;
   height: 100%;
-  transition: transform 0.5s cubic-bezier(0.77, 0, 0.18, 1);
 }
 
 .pm-slide {
-  min-width: 100%;
-  height: 100%;
-  flex-shrink: 0;
+  position: absolute;
+  inset: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0;
+  transition: opacity 0.45s ease;
+  pointer-events: none;
+}
+.pm-slide.active {
+  opacity: 1;
+  pointer-events: auto;
 }
 
-/* Always show full image at natural ratio — no clipping, no distortion */
+/* Full image at natural ratio — object-fit:contain letterboxes with charcoal bg */
 .pm-slide-img {
   display: block;
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 /* Prev / Next arrows */
@@ -91,9 +96,14 @@
   font-size: 16px;
   cursor: pointer;
   display: flex; align-items: center; justify-content: center;
-  transition: background 0.2s, border-color 0.2s;
+  transition: background 0.2s, border-color 0.2s, opacity 0.2s;
 }
-.pm-arrow:hover { background: rgba(200, 169, 110, 0.2); border-color: var(--gold); }
+.pm-arrow:hover:not(:disabled) { background: rgba(200, 169, 110, 0.2); border-color: var(--gold); }
+.pm-arrow:disabled {
+  opacity: 0.2;
+  cursor: not-allowed;
+  pointer-events: none;
+}
 .pm-arrow-prev { left: 16px; }
 .pm-arrow-next { right: 16px; }
 

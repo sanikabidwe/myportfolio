@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Navbar.css';
 
-export default function Navbar() {
+export default function Navbar({ profile }) {
   const location = useLocation();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -30,7 +30,10 @@ export default function Navbar() {
   return (
     <nav className={`navbar${isSolid ? ' scrolled' : ''}${menuOpen ? ' menu-open' : ''}`}>
       <Link to="/" className="nav-logo" onClick={closeMenu}>
-        S<span className="nav-logo-sup">b</span>
+        {/* S<span className="nav-logo-sup">b</span> */}
+        {profile && profile.logo ? <img src={profile?.logo} alt={profile.name} /> : profile?.name}
+        {/* Sanika Bidwe */}
+
       </Link>
 
       {/* Desktop links */}

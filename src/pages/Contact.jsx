@@ -6,7 +6,7 @@ export default function Contact() {
   const [profile, setProfile] = useState(null);
   useEffect(() => { getProfile().then(setProfile); }, []);
   return (
-    <div style={{ paddingTop: '80px', minHeight: '100vh', display: 'flex', flexDirection: 'column', background: 'var(--off-white)' }}>
+    <div>
       <ContactForm profile={profile} />
     </div>
   );
