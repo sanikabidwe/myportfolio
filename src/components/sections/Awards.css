@@ -1,33 +1,152 @@
-.awards-section { padding: 120px 60px; background: var(--off-white); }
-.awards-grid {
-  max-width: 1100px; margin: 0 auto;
-  display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; margin-bottom: 80px;
+.awards-section {
+  padding: 100px 0;
+  background: var(--off-white);
 }
+
+/* Flexbox container — justify-content: center naturally centres
+   1, 2, or 3 cards. Each card is capped at 1/3 width so 3 always
+   fill a row; extras wrap and stay centred. */
+.awards-grid {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 80px;
+}
+
 .award-card {
-  background: white; padding: 40px 32px; text-align: center;
-  box-shadow: 0 2px 20px rgba(26,26,26,0.04);
+  /* exactly 3 per row: 33.333% minus 2/3 of the total gap per card */
+  flex: 0 0 calc(33.333% - 16px);
+  max-width: 380px;
+  background: white;
+  padding: 40px 32px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 2px 20px rgba(26, 26, 26, 0.04);
   transition: box-shadow 0.3s, border-color 0.3s;
   border: 1px solid transparent;
 }
-.award-card:hover { box-shadow: 0 8px 40px rgba(26,26,26,0.08); border-color: var(--gold-light); }
-.award-icon { font-size: 28px; margin-bottom: 20px; opacity: 0.7; }
+
+.award-card:hover {
+  box-shadow: 0 8px 40px rgba(26, 26, 26, 0.08);
+  border-color: var(--gold-light);
+}
+
+.award-icon {
+  font-size: 28px;
+  margin-bottom: 20px;
+  opacity: 0.7;
+}
+
 .award-card h3 {
-  font-family: var(--font-display); font-size: 17px; font-weight: 600;
-  margin-bottom: 8px; line-height: 1.3;
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  line-height: 1.3;
 }
+
 .award-org {
-  font-family: var(--font-display); font-style: italic;
-  font-size: 14px; color: var(--muted); margin-bottom: 6px;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: 6px;
 }
-.award-year { font-size: 11px; letter-spacing: 1px; color: var(--gold); margin-bottom: 12px; }
-.award-card p { font-size: 12px; color: #7A7570; line-height: 1.6; }
-.publications-strip { max-width: 900px; margin: 0 auto; text-align: center; }
+
+.award-year {
+  font-family: var(--font-label);
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: var(--gold);
+  margin-bottom: 12px;
+}
+
+.award-card p {
+  font-size: 12px;
+  color: #7A7570;
+  line-height: 1.6;
+}
+
+.publications-strip {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 60px;
+  text-align: center;
+}
+
 .pub-label {
-  font-family: var(--font-display); font-size: 11px; letter-spacing: 3px;
-  text-transform: uppercase; color: var(--muted); margin-bottom: 24px;
+  font-family: var(--font-label);
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 24px;
 }
-.pub-logos { display: flex; gap: 40px; justify-content: center; align-items: center; flex-wrap: wrap; }
+
+.pub-logos {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .pub-logo {
-  font-family: var(--font-display); font-size: 20px; font-weight: 600;
-  letter-spacing: 2px; color: #C0B8B0; text-transform: uppercase;
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #C0B8B0;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .awards-section {
+    padding: 80px 0;
+  }
+
+  .awards-grid {
+    padding: 0 32px;
+    gap: 16px;
+    margin-bottom: 48px;
+  }
+
+  /* Two cards side-by-side on tablet */
+  .award-card {
+    flex: 0 0 calc(50% - 8px);
+    max-width: none;
+    padding: 28px 20px;
+  }
+
+  .publications-strip {
+    padding: 0 32px;
+  }
+
+  .pub-logos {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .awards-section {
+    padding: 64px 0;
+  }
+
+  .awards-grid {
+    padding: 0 20px;
+  }
+
+  /* Single column on phone */
+  .award-card {
+    flex: 0 0 100%;
+    max-width: none;
+  }
+
+  .publications-strip {
+    padding: 0 20px;
+  }
 }

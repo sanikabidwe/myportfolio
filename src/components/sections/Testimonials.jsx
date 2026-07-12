@@ -5,8 +5,10 @@ export default function Testimonials({ testimonials }) {
   const [current, setCurrent] = useState(0);
   if (!testimonials?.length) return null;
   const t = testimonials[current];
-  const prev = () => setCurrent(i => (i - 1 + testimonials.length) % testimonials.length);
-  const next = () => setCurrent(i => (i + 1) % testimonials.length);
+  const prev = () => setCurrent(i => Math.max(0, i - 1));
+  const next = () => setCurrent(i => Math.min(testimonials.length - 1, i + 1));
+  const isFirst = current === 0;
+  const isLast = current === testimonials.length - 1;
 
   return (
     <section id="testimonials" className="testi-section">
@@ -29,10 +31,12 @@ export default function Testimonials({ testimonials }) {
             />
           ))}
         </div>
-        <div className="testi-arrows">
-          <div className="testi-arrow" onClick={prev}>←</div>
-          <div className="testi-arrow" onClick={next}>→</div>
-        </div>
+        {testimonials.length > 1 && (
+          <div className="testi-arrows">
+            <div className={`testi-arrow${isFirst ? ' disabled' : ''}`} onClick={isFirst ? undefined : prev}>←</div>
+            <div className={`testi-arrow${isLast ? ' disabled' : ''}`} onClick={isLast ? undefined : next}>→</div>
+          </div>
+        )}
       </div>
     </section>
   );

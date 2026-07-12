@@ -1,23 +1,213 @@
-.about-section { padding: 120px 60px; background: var(--off-white); }
-.about-inner {
-  max-width: 1200px; margin: 0 auto;
-  display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start;
+/* ───── ABOUT — Artistic Edition ───── */
+.about-section {
+  padding: 120px 0;
+  background: var(--charcoal);
 }
-.about-quote {
-  font-family: var(--font-display); font-style: italic;
-  font-size: clamp(24px,3.5vw,38px); font-weight: 300;
-  line-height: 1.3; color: var(--charcoal);
-  border-left: 2px solid var(--gold); padding-left: 32px;
+
+/* Section title sits above the two-column inner grid */
+.about-section-header {
+  text-align: center;
+  padding: 0 60px 60px;
+}
+
+.about-section-header .section-title {
+  margin-bottom: 12px;
+  color: var(--gold-light);
+}
+
+.about-section-header .gold-rule {
+  margin-bottom: 0;
+}
+
+/* Two-column inner layout */
+.about-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 60px;
+  display: grid;
+  grid-template-columns: 38% 1fr;
+  gap: 80px;
+  align-items: stretch;
+}
+
+/* ── Left: profile photo ── */
+.about-photo-col {
+  position: static !important;
+  align-self: stretch;
+}
+
+.about-photo {
+  width: 100%;
+  height: 100%;
+  min-height: 480px;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  border-radius: 10px;
+}
+
+.about-photo-placeholder {
+  width: 100%;
+  height: 100%;
+  min-height: 480px;
+  background: var(--beige-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 14px;
+  color: var(--muted);
+  letter-spacing: 2px;
+  border-radius: 10px;
+}
+
+/* ── Right: artistic typography column ── */
+.about-text-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 40px 0;
+  position: relative;
+}
+
+/* Decorative ghost open-quote */
+.about-open-mark {
+  font-family: var(--font-display);
+  font-size: 200px;
+  line-height: 0.5;
+  color: var(--muted);
+  opacity: 0.18;
+  position: absolute;
+  top: 0px;
+  left: -8px;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* BIG artistic quote */
+.about-quote-big {
+  width: 100%;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 300;
+  font-size: clamp(22px, 3vw, 44px);
+  line-height: 1.2;
+  color: var(--muted);
+  margin-bottom: 80px;
+  position: relative;
+  z-index: 1;
+  letter-spacing: -0.5px;
+  text-align: justify;
+}
+
+.about-quote-big em {
+  color: var(--gold);
+  font-style: normal;
+}
+
+/* Gold rule separator */
+.about-rule {
+  width: 48px;
+  height: 1px;
+  background: var(--gold);
   margin-bottom: 32px;
 }
-.about-photo-small {
-  width: 220px; height: 280px; margin-top: 8px;
+
+/* Tiny two-column bio (museum placard style) */
+.about-bio-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 40px;
+  margin-bottom: 36px;
 }
-.about-content p {
-  font-size: 15px; line-height: 1.9; color: #4A4540; margin-bottom: 24px;
+
+.about-bio-block p {
+  font-size: 11px;
+  letter-spacing: 0.4px;
+  line-height: 1.85;
+  text-align: justify;
+  color: #6A6460;
+  font-family: var(--font-body);
 }
-.about-aspiration {
-  font-family: var(--font-display) !important;
-  font-style: italic; font-size: 17px !important;
-  color: var(--muted) !important; margin-top: 8px;
+
+/* Aspiration line */
+.about-aspiration-tag {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 13px;
+  color: var(--muted);
+  border-top: 1px solid var(--beige-dark);
+  padding-top: 20px;
+  max-width: 540px;
+}
+
+/* ── Tablet ── */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 80px 0;
+  }
+
+  .about-section-header {
+    padding: 0 32px 48px;
+  }
+
+  .about-inner {
+    padding: 0 32px;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-photo-col {
+    /* already non-sticky */
+  }
+
+  .about-photo,
+  .about-photo-placeholder {
+    height: auto;
+    min-height: unset;
+    aspect-ratio: 3 / 4;
+    object-position: center center;
+  }
+
+  .about-text-col {
+    padding: 20px 0;
+  }
+
+  .about-open-mark {
+    font-size: 140px;
+  }
+
+  .about-bio-block {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .about-bio-block p {
+    font-size: 12px;
+  }
+}
+
+/* ── Phone ── */
+@media (max-width: 480px) {
+  .about-section {
+    padding: 64px 0;
+  }
+
+  .about-section-header {
+    padding: 0 20px 40px;
+  }
+
+  .about-inner {
+    padding: 0 20px;
+  }
+
+  .about-quote-big {
+    margin-bottom: 48px;
+  }
+
+  .about-open-mark {
+    font-size: 100px;
+  }
 }

@@ -1,37 +1,13 @@
 [
   {
     "id": 1,
-    "company": "Masaba Gupta Studio",
+    "company": "Malhar Fashions (India) Pvt Ltd",
     "role": "Design Intern",
-    "duration": "Jun 2024 – Aug 2024",
-    "description": "Assisted the creative team with collection development, mood boards, fabric sourcing, and textile sampling for the festive line.",
+    "duration": "Jun 2024 – September 2024",
+    "description": "Assisted senior Designer with Designing, collection development, mood boards, Sampling management, fashion illustrations.",
     "achievements": [
-      "Supported visual concepts for the upcoming Festive Collection",
-      "Sourced unique textiles for the SS25 range"
-    ],
-    "side": "left"
-  },
-  {
-    "id": 2,
-    "company": "Lakmé Fashion Week",
-    "role": "Assistant Stylist",
-    "duration": "Mar 2024",
-    "description": "Collaborated with the styling team to curate runway looks, manage backstage styling, and coordinate with models and designers.",
-    "achievements": [
-      "Coordinated over 30 runway looks across multiple shows",
-      "Managed fittings and quick-changes during live events"
-    ],
-    "side": "right"
-  },
-  {
-    "id": 3,
-    "company": "Freelance",
-    "role": "Capsule Collection Design",
-    "duration": "Sep 2023 – Jan 2024",
-    "description": "Conceptualised, designed, and produced a limited-edition 12-piece capsule collection 'AURA' for an independent label.",
-    "achievements": [
-      "Achieved 70% sell-through within 3 weeks of launch",
-      "Developed full brand identity and photoshoot direction"
+      "Designs got selected for Bonprix meeting 2024, based in Humburg, Germany",
+      "Designed mockups that got selected by the brand -IKKS, Italy"
     ],
     "side": "left"
   }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Awards.css';
 
-const PUBLICATIONS = ['Vogue', 'Elle', "Harper's", 'Bazaar', 'Grazia'];
+const PUBLICATIONS = ['Raymonds', 'Bombay Times'];
 
 export default function Awards({ awards }) {
   if (!awards?.length) return null;

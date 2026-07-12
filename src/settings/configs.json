@@ -1,0 +1,25 @@
+{
+  "_comment": "Central theme configuration. Edit values here to change colors, fonts, and spacing site-wide.",
+  "colors": {
+    "offWhite": "#FAF8F5",
+    "charcoal": "#1A1A1A",
+    "gold": "#C8A96E",
+    "goldLight": "#E8D5A3",
+    "beige": "#F0EAE0",
+    "beigeLight": "#F5F0E8",
+    "beigeDark": "#E5DDD2",
+    "muted": "#8A8480"
+  },
+  "typography": {
+    "fontDisplay": "'Cormorant Garamond', Georgia, serif",
+    "fontHero": "'Playfair Display', Georgia, serif",
+    "fontBody": "'Inter', system-ui, sans-serif",
+    "fontLabel": "'Montserrat', system-ui, sans-serif",
+    "fontSans": "'Plus Jakarta Sans', system-ui, sans-serif"
+  },
+  "spacing": {
+    "sectionPaddingY": "120px",
+    "containerMaxWidth": "1280px",
+    "containerPaddingX": "60px"
+  }
+}

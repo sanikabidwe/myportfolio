@@ -1,23 +1,9 @@
 [
   {
     "id": 1,
-    "quote": "Her work demonstrates a rare combination of technical precision and creative vision that stands out in a competitive field. A truly remarkable design sensibility.",
-    "name": "Dr. Meera Nair",
-    "role": "Professor of Fashion Design, Symbiosis Institute",
-    "initials": "MN"
-  },
-  {
-    "id": 2,
-    "quote": "Sanika brings a refreshing clarity to every brief — her ability to translate concepts into garments with such precision is something I rarely see in designers at this stage of their career.",
-    "name": "Ananya Khanna",
-    "role": "Creative Director, Masaba Gupta Studio",
-    "initials": "AK"
-  },
-  {
-    "id": 3,
-    "quote": "Working with Sanika on the AURA capsule was seamless. She has an instinctive understanding of how a collection should feel, not just look.",
-    "name": "Priya Mehta",
-    "role": "Founder, AURA Label",
-    "initials": "PM"
+    "quote": "She can become a great Costume Designer.",
+    "name": "Harsh Gupta",
+    "role": "Creative Director, Harsh Harsh",
+    "initials": "HG"
   }
 ]
