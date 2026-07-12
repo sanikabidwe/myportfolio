@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './CollectionDetail.css';
 
@@ -15,43 +15,37 @@ import './CollectionDetail.css';
 export default function CollectionDetail({ collection }) {
   const navigate = useNavigate();
 
-  /* ── lightbox state ─────────────────────────────── */
-  const [lb, setLb] = useState({ open: false, src: '', alt: '' });
-  const [lbScale, setLbScale] = useState(1);
-  const [lbPos, setLbPos] = useState({ x: 0, y: 0 });
-  const lbImgRef = useRef(null);
-  const isDragging = useRef(false);
-  const dragStart = useRef({ x: 0, y: 0, tx: 0, ty: 0 });
+  /* ── slider lightbox state ───────────────────────────────── */
+  const [lb, setLb] = useState({ open: false, images: [], index: 0, alt: '' });
 
   /* open / close */
-  const openLb = (src, alt) => { setLb({ open: true, src, alt }); setLbScale(1); setLbPos({ x: 0, y: 0 }); };
-  const closeLb = () => setLb({ open: false, src: '', alt: '' });
+  const openLb = (look) => {
+    // Build image array: prefer look.images[], fall back to [look.image]
+    const imgs = (look.images && look.images.length > 0 ? look.images : [look.image]).filter(Boolean);
+    if (imgs.length === 0) return;
+    setLb({ open: true, images: imgs, index: 0, alt: look.name });
+  };
+  const closeLb = () => setLb({ open: false, images: [], index: 0, alt: '' });
 
-  /* wheel zoom */
-  const onWheel = (e) => {
-    e.preventDefault();
-    const delta = e.deltaY > 0 ? -0.15 : 0.15;
-    setLbScale(s => Math.min(5, Math.max(1, s + delta * s)));
+  /* clamped slide navigation — non-circular, matches Project Modal pattern */
+  const lbSlide = (dir) => {
+    setLb(prev => ({
+      ...prev,
+      index: Math.max(0, Math.min(prev.images.length - 1, prev.index + dir)),
+    }));
   };
 
-  /* drag pan */
-  const onMouseDown = (e) => {
-    if (lbScale <= 1) return;
-    isDragging.current = true;
-    dragStart.current = { x: e.clientX - lbPos.x, y: e.clientY - lbPos.y };
-  };
-  const onMouseMove = (e) => {
-    if (!isDragging.current) return;
-    setLbPos({ x: e.clientX - dragStart.current.x, y: e.clientY - dragStart.current.y });
-  };
-  const onMouseUp = () => { isDragging.current = false; };
-
-  /* keyboard close */
+  /* keyboard navigation */
   useEffect(() => {
-    const handler = (e) => { if (e.key === 'Escape') closeLb(); };
+    const handler = (e) => {
+      if (!lb.open) return;
+      if (e.key === 'Escape') closeLb();
+      if (e.key === 'ArrowLeft') lbSlide(-1);
+      if (e.key === 'ArrowRight') lbSlide(1);
+    };
     document.addEventListener('keydown', handler);
     return () => document.removeEventListener('keydown', handler);
-  }, []);
+  }, [lb.open]); // eslint-disable-line react-hooks/exhaustive-deps
 
   /* lock body scroll when lb open */
   useEffect(() => {
@@ -68,7 +62,7 @@ export default function CollectionDetail({ collection }) {
     metaDesigner, metaLooks, metaCategory, metaYear,
     conceptQuote, conceptBody, conceptRight, pills,
     conceptBoardSubtitle, conceptBoardImage, overviewSubtitle,
-    looks, lineupTitle, lineupSubtitle, lineupImage,
+    looks, lineupLabel, lineupTitle, lineupSubtitle, lineupImage,
     nextSlug, nextTitle,
   } = collection;
 
@@ -76,6 +70,12 @@ export default function CollectionDetail({ collection }) {
   const titleParts = title.split(/\s+/);
   const titleHead = titleParts.slice(0, -1).join(' ');
   const titleTail = titleParts[titleParts.length - 1];
+
+  /* derived slider values */
+  const lbTotal = lb.images.length;
+  const lbIndex = lb.index;
+  const lbAtFirst = lbIndex === 0;
+  const lbAtLast = lbIndex === lbTotal - 1;
 
   return (
     <>
@@ -138,7 +138,7 @@ export default function CollectionDetail({ collection }) {
       {/* ══════════════════ CONCEPT BOARD ══════════════════════ */}
       <section className="cd-concept">
         <div className="cd-concept__inner">
-          <p className="cd-section-label">Mood & Research</p>
+          <p className="cd-section-label">Mood &amp; Research</p>
           <h2 className="cd-section-title">Concept Board</h2>
           <p className="cd-section-subtitle">{conceptBoardSubtitle}</p>
           <div className="cd-gold-divider" />
@@ -180,7 +180,7 @@ export default function CollectionDetail({ collection }) {
                 {/* Image side */}
                 <div
                   className="cd-look-card__image"
-                  onClick={() => look.image && openLb(look.image, look.name)}
+                  onClick={() => look.image && openLb(look)}
                 >
                   {look.image ? (
                     <>
@@ -223,7 +223,7 @@ export default function CollectionDetail({ collection }) {
       {/* ══════════════════ FULL LINEUP ════════════════════════ */}
       <section className="cd-lineup">
         <div className="cd-lineup__inner">
-          <p className="cd-section-label">The Full Lineup</p>
+          <p className="cd-section-label">{lineupLabel}</p>
           <h2 className="cd-section-title">{lineupTitle}</h2>
           <p className="cd-section-subtitle">{lineupSubtitle}</p>
           <div className="cd-gold-divider" />
@@ -241,56 +241,62 @@ export default function CollectionDetail({ collection }) {
         </div>
       </section>
 
-      {/* ══════════════════ BACK / NEXT BAR ════════════════════ */}
-      {/* <div className="cd-nav-bar">
-        <div className="cd-nav-bar__inner">
-          <button className="cd-back-link" onClick={() => navigate('/work')}>
-            Back to All Work
-          </button>
-          {nextSlug && nextTitle && (
-            <button
-              className="cd-next-link"
-              onClick={() => navigate(`/collection/${nextSlug}`)}
-            >
-              Next: {nextTitle}
-            </button>
-          )}
-        </div>
-      </div> */}
-
-      {/* ══════════════════ LIGHTBOX ═══════════════════════════ */}
+      {/* ══════════════════ SLIDER LIGHTBOX ════════════════════ */}
       <div
         id="cd-lb-overlay"
         className={`cd-lb-overlay${lb.open ? ' open' : ''}`}
         onClick={(e) => {
-          if (e.target.id === 'cd-lb-overlay' || e.target.classList.contains('cd-lb-container'))
-            closeLb();
+          if (e.target.id === 'cd-lb-overlay') closeLb();
         }}
-        onWheel={onWheel}
-        onMouseDown={onMouseDown}
-        onMouseMove={onMouseMove}
-        onMouseUp={onMouseUp}
         role="dialog"
         aria-modal="true"
         aria-label="Image viewer"
       >
+        {/* Left arrow */}
+        <button
+          className={`cd-lb-arrow cd-lb-arrow--prev${lbAtFirst ? ' disabled' : ''}`}
+          onClick={() => lbSlide(-1)}
+          aria-label="Previous image"
+          disabled={lbAtFirst}
+        >
+          &#8592;
+        </button>
+
+        {/* Image container */}
         <div className="cd-lb-container">
-          <img
-            ref={lbImgRef}
-            className="cd-lb-img"
-            src={lb.src}
-            alt={lb.alt}
-            style={{
-              transform: `translate(${lbPos.x}px, ${lbPos.y}px) scale(${lbScale})`,
-            }}
-          />
+          {lb.open && (
+            <img
+              key={lbIndex}
+              className="cd-lb-img"
+              src={lb.images[lbIndex]}
+              alt={`${lb.alt} — ${lbIndex + 1} of ${lbTotal}`}
+            />
+          )}
         </div>
+
+        {/* Right arrow */}
+        <button
+          className={`cd-lb-arrow cd-lb-arrow--next${lbAtLast ? ' disabled' : ''}`}
+          onClick={() => lbSlide(1)}
+          aria-label="Next image"
+          disabled={lbAtLast}
+        >
+          &#8594;
+        </button>
+
+        {/* Close button */}
         <button className="cd-lb-close" onClick={closeLb} aria-label="Close image viewer">
           &#x2715;
         </button>
-        <span className="cd-lb-hint">Scroll to zoom &nbsp;·&nbsp; Drag to pan</span>
-        <span className="cd-lb-zoom">{Math.round(lbScale * 100)}%</span>
+
+        {/* Slide counter */}
+        {lbTotal > 1 && (
+          <span className="cd-lb-counter">
+            {String(lbIndex + 1).padStart(2, '0')} / {String(lbTotal).padStart(2, '0')}
+          </span>
+        )}
       </div>
     </>
   );
 }
+

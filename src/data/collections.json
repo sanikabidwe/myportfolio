@@ -1,5 +1,81 @@
 [
   {
+    "slug": "behind-the-mask",
+    "title": "Behind the Mask",
+    "eyebrow": "Fashion Collection · 2026",
+    "heroImage": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-cover.jpeg",
+    "metaDesigner": "Saanika Bidwe",
+    "metaLooks": "3 Looks",
+    "metaCategory": "Avantgarde",
+    "metaYear": "2026",
+    "conceptQuote": "\"The purpose of this concept is to not only honor the “Joy of Carnival”\"",
+    "conceptBody": "Most celebrations focus solely on the \"Present,\" trying to ignore the fact that the party must stop. Behind the Mask argues that the conclusion is just as vital as the commencement.",
+    "conceptRight": [
+      "A concept which portrays the bitter beauty of A Carnival by showing its three stages - PRE / PRESENT / POST carnival, but also closing it with a feeling - All Beautiful things deserve a Beautiful End !"
+    ],
+    "pills": [
+      "Avantgarde",
+      "Extravaganza",
+      "Womenswear",
+      "Graduation Collection"
+    ],
+    "conceptBoardSubtitle": "Reveal · Revelry · Remembrance",
+    "conceptBoardImage": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-concept.jpeg",
+    "overviewSubtitle": "3 Womenswear Looks",
+    "looks": [
+      {
+        "number": "01",
+        "name": "Pre-Carnival: The unveiling",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-garment1-collage.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-garment1-flying.jpeg",
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-garment1-midshot2.JPEG",
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-garment1-posing.jpeg",
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-garment1-hand_details.JPEG",
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-garment1-not_flying.JPEG",
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-garment1-headgear.JPEG",
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-garment1-midshot1.JPEG"
+        ],
+        "description": "The opening look marks the beginning of the carnival, inspired by the theatrical moment when the curtains rise. The flowing drape symbolizes the unveiling of the spectacle, while the sculpted hand creates the illusion of drawing the curtain open. Cone-inspired details reinterpret confetti, capturing the anticipation and excitement before the celebration begins. A beaded curtain-inspired headpiece echoes the opening drape, reinforcing the narrative of the carnival's grand reveal.",
+        "imagePos": "left"
+      },
+      {
+        "number": "02",
+        "name": "The carnival at its peak",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-garment2-collage.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-garment2-sitting.jpeg",
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-garment2-back_silhouette.PNG",
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-garment2-standing.jpeg",
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-garment2-wheel_details.PNG",
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-garment2-details.jpeg",
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-garment2-silhouette.jpeg"
+        ],
+        "description": "Representing the carnival in full celebration, this ensemble transforms iconic attractions into wearable art. The LED illuminated Ferris wheel-inspired structure and merry-go-round silhouette evoke movement, light, and wonder, while the rich red and gold palette celebrates the joy and grandeur of the carnival at its peak.",
+        "imagePos": "right"
+      },
+      {
+        "number": "03",
+        "name": "Post-Carnival: A handful of memories",
+        "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-garment3-collage.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-garment3-full.jpeg",
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-garment3-hand_details.jpeg",
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-garment3-polaroid_details.png",
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-garment3-midshot.jpeg"
+        ],
+        "description": "Continuing the narrative from the opening look, the sculptural hand returns as a symbol of collecting memories created throughout the carnival. Polaroid-inspired embellishments preserve fleeting moments of celebration, suspended by rhinestone strands that resemble strings gently held in the hand. Together, these elements transform joyful experiences into lasting keepsakes, celebrating the emotions that remain long after the festivities end.",
+        "imagePos": "left"
+      }
+    ],
+    "lineupLabel": "Achievement",
+    "lineupTitle": "Featured @Bombay",
+    "lineupSubtitle": "",
+    "lineupImage": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-featured-image.jpeg",
+    "nextSlug": "noorani",
+    "nextTitle": "Noorani Collection"
+  },
+  {
     "slug": "noorani",
     "title": "Noorani",
     "eyebrow": "Fashion Collection · 2026",
@@ -30,6 +106,9 @@
         "number": "01",
         "name": "Tegh",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-tegh-1.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-tegh-1.jpg"
+        ],
         "description": "Inspired by Mastani’s fearless warrior spirit, Tegh captures the strength that defined her. The armor like silhouette reflects her courage and unwavering presence, while the ivory and gold palette balances power with elegance. Named after the word meaning “sharp sword,” this design embodies a woman who is both graceful and formidable.",
         "imagePos": "left"
       },
@@ -37,6 +116,9 @@
         "number": "02",
         "name": "Ehsaas",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-ehsaas-2.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-ehsaas-2.jpg"
+        ],
         "description": "Inspired by the moment Mastani begins to embrace her feelings, Ehsaas reflects a softer chapter of her journey. The fluid drapes and open silhouette echo her vulnerability and growing openness to love, drawing inspiration from her iconic off-shoulder attire. Yet, the structured belt remains a subtle reminder that beneath the tenderness still lives the strength and spirit of a warrior.",
         "imagePos": "right"
       },
@@ -44,6 +126,9 @@
         "number": "03",
         "name": "Ulfat",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-ulfat-3.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-ulfat-3.jpg"
+        ],
         "description": "Ulfat marks the moment when love is no longer a feeling to be hidden but one to be embraced. The rich crimson palette symbolizes passion, while the sculpted rose detail draws inspiration from the rose Mastani holds a timeless emblem of devotion. Intricate embellishments reflect her growing desire to adorn herself for love, yet the strong silhouette and high boots remain a reminder of the fearless warrior within.",
         "imagePos": "left"
       },
@@ -51,6 +136,9 @@
         "number": "04",
         "name": "Deewani",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-deewani-4.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-deewani-4.jpg"
+        ],
         "description": "Deewani captures the stage where love transcends reason and becomes complete surrender. Inspired by Mastani’s iconic golden attire, the design embodies the radiance and intensity of a woman wholly consumed by her devotion to Bajirao. The flowing drape and traditional headpiece pay homage to her royal elegance, while the shimmering gold palette reflects a love so profound that it becomes her entire world.",
         "imagePos": "right"
       },
@@ -58,6 +146,9 @@
         "number": "05",
         "name": "Ehad",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-ehad-5.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-ehad-5.jpg"
+        ],
         "description": "Inspired by the moment of promise and commitment, Ehad reflects a love that has found certainty. The hooded silhouette reinterprets Mastani’s gracefully draped veil from her appearance in the royal court, while the soft palette echoes the elegance of that iconic moment. Named after the word meaning “promise,” the design symbolizes the bond sealed in their heartfelt qubool hai.",
         "imagePos": "left"
       },
@@ -65,6 +156,9 @@
         "number": "06",
         "name": "Noorjahan",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-noorjahan-6.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-noorjahan-6.jpg"
+        ],
         "description": "Noorjahan marks the moment when Mastani is no longer known only by her own name, but as a woman whose presence stands beside Bajirao’s. Inspired by her regal appearance, the design embraces royalty through structured shoulders, rich detailing, and a dramatic cape that flows into the skirt. It captures the grace, power, and radiance of a queen who commands both admiration and respect.",
         "imagePos": "right"
       },
@@ -72,6 +166,9 @@
         "number": "07",
         "name": "Qaid",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-kaid-7.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-kaid-7.jpg"
+        ],
         "description": "Qaid captures a chapter of resilience in the face of adversity. Inspired by the period of Mastani’s captivity, the design reflects her unwavering courage and determination to protect what she loved. The structured jacket symbolizes her inner strength, while the dhoti silhouette allows freedom of movement, echoing the spirit of a warrior who refused to be broken by her circumstances.",
         "imagePos": "left"
       },
@@ -79,10 +176,14 @@
         "number": "08",
         "name": "Fanaa",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-fanaa-8.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-fanaa-8.jpg"
+        ],
         "description": "Fanaa marks the final chapter of Mastani’s journey a love so profound that it transcends life itself. Inspired by her appearance in her last moments, the design reinterprets the layered silhouette and symbolic iron chain into an ornate neckline that speaks of devotion rather than restraint. The commanding boots represent the immense strength it took to endure her path, making this look a tribute to a woman who chose love until her very last breath.",
         "imagePos": "right"
       }
     ],
+    "lineupLabel": "The Full Lineup",
     "lineupTitle": "All Eight Looks",
     "lineupSubtitle": "Tegh · Ehsaas · Ulfat · Deewani · Ehad · Noorjahan · Qaid · Fanaa",
     "lineupImage": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/noorani-collection.jpg",
@@ -121,6 +222,9 @@
         "number": "01",
         "name": "Kshatriya",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-kshatriya-1.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-kshatriya-1.jpg"
+        ],
         "description": "Kshatriya marks the rise of Bajirao the fearless warrior whose identity was forged on the battlefield long before it was tested by love. Rooted in strength, discipline, and honor, this look reimagines the grandeur of a warrior's armor through a contemporary Indo-Western lens. Metallic embellishments and dangling details echo the movement of battle gear, while the embellished scarf reflects the regal drape of a Maratha commander. The chained eyewear serves as a subtle tribute to the warrior's headgear, carrying fragments of his legacy into the present. Powerful yet refined, the ensemble captures the spirit of a Kshatriya - a man destined to lead, conquer, and leave his mark on history.",
         "imagePos": "left"
       },
@@ -128,6 +232,9 @@
         "number": "02",
         "name": "Agaaz",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-agaaz-2.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-agaaz-2.jpg"
+        ],
         "description": "Aagaaz represents the beginning of a transformation—the moment when the warrior encounters a love powerful enough to alter the course of his destiny. As Bajirao meets Mastani, the armor begins to soften, revealing the man beneath the legend. The printed blouson draws inspiration from the motifs of his royal attire, while the reduced layering symbolizes emotional openness and vulnerability. The silhouette feels lighter, freer, and more personal, reflecting a heart slowly making room for love amidst duty and power. Finished with simple eyewear, the look signifies clarity—a Bajirao who chooses to present himself exactly as he is, unguarded and unapologetically true.",
         "imagePos": "right"
       },
@@ -135,6 +242,9 @@
         "number": "03",
         "name": "Ulfat",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-ulfat-3.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-ulfat-3.jpg"
+        ],
         "description": "Ulfat captures the stage where love ceases to be a distraction and becomes a devotion. The warrior who once carried the weight of an empire now finds his thoughts occupied by a single presence Mastani. The open silhouette and relaxed dhoti drape symbolize a gradual release from the rigid expectations of power and status, revealing a man guided by emotion rather than duty. Rich adornments remain, echoing his royal identity, yet they are worn with an effortless ease that speaks of newfound freedom. Finished with heart-shaped eyewear, the look becomes a playful yet symbolic expression of a heart completely surrendered to love.",
         "imagePos": "left"
       },
@@ -142,6 +252,9 @@
         "number": "04",
         "name": "Bekhudi",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-bekhudi-4.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-bekhudi-4.jpg"
+        ],
         "description": "Bekhudi represents the intoxicating stage of love where reason begins to blur and devotion takes control. Lost in Mastani's presence, Bajirao no longer moves with the calculated restraint of a ruler but with the abandon of a man consumed by emotion. The ensemble retains the grandeur of a king through its ornate embellishments and regal detailing, yet its fluid construction and softened structure reflect a growing detachment from responsibility and worldly expectations. It is a portrait of a warrior-king caught between crown and heart, drifting deeper into a love so powerful that it makes him forget everything but her.",
         "imagePos": "right"
       },
@@ -149,6 +262,9 @@
         "number": "05",
         "name": "Ehad",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-ehad-5.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-ehad-5.jpg"
+        ],
         "description": "Ehad - meaning a promise ,marks the moment when love matures into commitment. No longer lost in the intoxication of emotion, Bajirao begins to understand the weight of the choices he has made. The layered construction reflects this growing awareness, symbolizing the many roles he must now carry as a warrior, a ruler, and a lover. Inspired by the hues and grandeur of his royal attire, the ensemble retains a sense of romance while embracing responsibility. The statement belt acts as a visual anchor, representing his renewed connection to the kingdom and the duties that await him. Enhanced with ornate eyewear, the look embodies a king who has accepted both the privileges and burdens of his crown without turning away from love.",
         "imagePos": "left"
       },
@@ -156,6 +272,9 @@
         "number": "06",
         "name": "Peshwa",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-peshwa-6.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-peshwa-6.jpg"
+        ],
         "description": "Peshwa represents the culmination of Bajirao's journey a man who has learned to balance the demands of the throne with the desires of his heart. The silhouette reflects authority and confidence, while the structured styling signifies a ruler fully aware of his responsibilities. A tie-inspired detail introduces a sense of discipline and purpose, symbolizing his unwavering commitment to the kingdom. Draped fabric elements intertwine with the garment, serving as a metaphor for his bond with Mastani inseparable yet harmonious. Rich in regal grandeur and contemporary expression, the look portrays Bajirao not merely as a lover or a warrior, but as a Peshwa who carries both love and duty with equal strength and maturity.",
         "imagePos": "right"
       },
@@ -163,6 +282,9 @@
         "number": "07",
         "name": "Virah",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-virah-7.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-virah-7.jpg"
+        ],
         "description": "Virah embodies the agony of separation ,the stage where love remains, but its presence can no longer be felt. As Bajirao's world begins to unravel, he clings to the memory of Mastani with a devotion stronger than life itself. The deconstructed drape and fluid trouser silhouette reflect a man whose reality is slowly slipping away, mirroring the chaos and helplessness of a heart consumed by longing. Inspired by the sacred thread worn by Bajirao, the fastening detail becomes a powerful symbol of his final struggle, as though his life itself hangs by a single string. The spiral eyewear echoes the blurred line between reality and illusion, capturing the visions and memories that accompany him in his final moments. It is a portrait of a warrior brought to his knees not by battle, but by separation.",
         "imagePos": "left"
       },
@@ -170,12 +292,16 @@
         "number": "08",
         "name": "Fanaa",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-fanaa-8.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-fanaa-8.jpg"
+        ],
         "description": "Fanaa marks the final chapter of Bajirao's journey, a love so profound that it transcends life itself. In this stage, the warrior, the ruler, and the lover dissolve into memory, leaving behind only devotion. The flowing white silhouette evokes purity, surrender, and the soul's release from the mortal world, creating an ethereal presence that feels suspended between earth and eternity. Soft, luminous tones replace the intensity of earlier stages, while a deep red adornment rests close to the heart ,a quiet reminder of Ulfat, the love that remained with him until his final breath. Pearl-like drops and delicate details evoke tears left unspoken, carrying the weight of longing, sacrifice, and remembrance. Fanaa is not an ending, but a union beyond life a testament to a love that neither time, distance, nor death could erase.",
         "imagePos": "right"
       }
     ],
+    "lineupLabel": "The Full Lineup",
     "lineupTitle": "All Eight Looks",
-    "lineupSubtitle": "Images releasing soon",
+    "lineupSubtitle": "Kshatriya · Agaaz · Ulfat · Bekhudi · Ehad · Peshwa · Virah · Fanaa",
     "lineupImage": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/adhirat-collection.jpg",
     "nextSlug": "entangled-souls",
     "nextTitle": "The Entangled Souls"
@@ -215,6 +341,9 @@
         "number": "01",
         "name": "Astral Void",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-astral_void-1.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-astral_void-1.jpg"
+        ],
         "description": "A solitary soul drifts through the infinite cosmos, unaware of the connection destined to shape its journey. Celestial embroidery, flowing drapes, and infinity-inspired silhouettes reflect the vastness of the universe and the endless search for purpose.",
         "imagePos": "left"
       },
@@ -222,6 +351,9 @@
         "number": "02",
         "name": "Red Thread theory",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-the_red_thread_theory-2.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-the_red_thread_theory-2.jpg"
+        ],
         "description": "An invisible thread of fate begins guiding two souls toward one another. Asymmetrical silhouettes symbolize their incomplete awareness, while the connecting red thread represents a bond that exists beyond time, distance, and understanding.",
         "imagePos": "right"
       },
@@ -229,6 +361,9 @@
         "number": "03",
         "name": "Cosmic Pull",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-cosmic_pull-3.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-cosmic_pull-3.jpg"
+        ],
         "description": "As destiny strengthens, the universe repeatedly draws two souls into each other's orbit. Multiple red threads and gathered ruffles symbolize the growing magnetic force, reflecting both the uncertainty and the irresistible pull of a connection yet to be understood.",
         "imagePos": "left"
       },
@@ -236,6 +371,9 @@
         "number": "04",
         "name": "Soul Recognition",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-the_soul_recognition-4.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-the_soul_recognition-4.jpg"
+        ],
         "description": "The soul no longer questions what the heart already knows. Crimson hues, connected heart motifs, and transparent embroidered details symbolize passion, vulnerability, and the moment two souls consciously recognize their bond.",
         "imagePos": "right"
       },
@@ -243,6 +381,9 @@
         "number": "05",
         "name": "Test of Souls",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-test_of_souls-5.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-test_of_souls-5.jpg"
+        ],
         "description": "Every soul connection must endure the lessons designed by the universe. Structured black layers conceal the red foundation beneath, representing misunderstandings, ego, and challenges, while the breaking threads signify a bond being tested but not destroyed.",
         "imagePos": "left"
       },
@@ -250,6 +391,9 @@
         "number": "06",
         "name": "Unfinished Soul Connection",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-unfinished_soul_connection-6.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-unfinished_soul_connection-6.jpg"
+        ],
         "description": "Separation creates distance, but not disconnection. The monochromatic palette reflects emotional darkness, while fractured fastening details held together by delicate red threads symbolize hope and a connection that remains unfinished.",
         "imagePos": "right"
       },
@@ -257,6 +401,9 @@
         "number": "07",
         "name": "Soul Reconciliation",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-soul_reconciliation-7.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-soul_reconciliation-7.jpg"
+        ],
         "description": "Having endured growth, loss, and transformation, two souls find their way back to one another. A pure white palette, golden embroidered hands, and a connecting thread symbolize reunion, healing, and divine timing.",
         "imagePos": "left"
       },
@@ -264,13 +411,16 @@
         "number": "08",
         "name": "Beyond Infinity",
         "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-beyond_infinity-8.jpg",
+        "images": [
+          "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-beyond_infinity-8.jpg"
+        ],
         "description": "The journey reaches its highest form as two souls become eternally intertwined. Infinite flowing drapes connect both garments, while white and gold symbolize spiritual fulfillment, unity, and a bond that transcends time, space, and destiny.",
         "imagePos": "right"
       }
     ],
     "lineupLabel": "The Full Lineup",
     "lineupTitle": "Collection Preview",
-    "lineupSubtitle": "Images releasing soon",
+    "lineupSubtitle": "Astral Void · Red Thread theory · Cosmic Pull · Soul Recognition · Test of Souls · Unfinished Soul Connection · Soul Reconciliation · Beyond Infinity",
     "lineupImage": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/the_entangled_souls-collection-1.jpg",
     "nextSlug": null,
     "nextTitle": null

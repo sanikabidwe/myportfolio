@@ -1,28 +1,29 @@
 [
   {
-    "id": "terra-collection",
-    "title": "Terra — Sustainable Collection",
-    "modalTitle": "Terra — Sustainable <em>Collection</em>",
-    "year": 2025,
+    "id": "behind-the-mask",
+    "title": "Behind the Mask",
+    "modalTitle": "Behind the <em>Mask</em>",
+    "year": 2026,
     "category": "COLLECTIONS",
-    "type": "described",
-    "description": "A 12-piece womenswear collection inspired by circular fashion principles, raw earth tones, and zero-waste pattern cutting techniques.",
-    "modalDescription": "A 12-piece womenswear collection inspired by circular fashion principles, raw earth tones, and zero-waste pattern cutting techniques.\n\nEach piece uses deadstock fabrics, natural dyes, and hand-finishing techniques. The collection debuted at Sasmira's 2025 graduation show.",
+    "type": "photo-only",
+    "description": null,
+    "modalDescription": null,
     "modalTags": [
+      "Avantgarde",
+      "Extravaganza",
       "Womenswear",
-      "Sustainable Design",
-      "Zero Waste",
-      "Natural Dyes",
-      "Pattern Making"
+      "Graduation Collection"
     ],
-    "image": null,
+    "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-portrait-cover.png",
+    "modalImages": null,
     "gradient": "linear-gradient(135deg,#2A2520 0%,#1C1810 100%)",
     "modalGradients": [
       "linear-gradient(135deg,#2A2520 0%,#1C1810 100%)",
       "linear-gradient(160deg,#3D3028 0%,#251A10 100%)",
       "linear-gradient(135deg,#4A3C2C 0%,#2A2010 100%)"
     ],
-    "gridClass": "card-1"
+    "gridClass": "card-13",
+    "collectionSlug": "behind-the-mask"
   },
   {
     "id": "entangled-souls-collection",

@@ -631,7 +631,6 @@
   backdrop-filter: blur(6px);
   align-items: center;
   justify-content: center;
-  cursor: zoom-out;
 }
 
 .cd-lb-overlay.open {
@@ -640,43 +639,73 @@
 }
 
 @keyframes cdLbFadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
+/* ── Image container ─────────────────────────────────────── */
 .cd-lb-container {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  flex: 1;
   height: 100%;
   overflow: hidden;
-  cursor: grab;
-}
-
-.cd-lb-container.dragging {
-  cursor: grabbing;
 }
 
 .cd-lb-img {
-  max-width: 92vw;
-  max-height: 90vh;
+  max-width: 80vw;
+  max-height: 88vh;
   object-fit: contain;
   border-radius: 2px;
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6);
-  transform-origin: center center;
-  transition: transform 0.08s linear;
-  pointer-events: none;
+  animation: cdImgFadeIn 0.2s ease;
   user-select: none;
-  will-change: transform;
+  pointer-events: none;
 }
 
+@keyframes cdImgFadeIn {
+  from { opacity: 0; transform: scale(0.97); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* ── Arrow buttons ───────────────────────────────────────── */
+.cd-lb-arrow {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10001;
+  width: 52px;
+  height: 52px;
+  border: 1px solid rgba(200, 169, 110, 0.45);
+  border-radius: 50%;
+  background: rgba(10, 6, 2, 0.55);
+  color: var(--gold-light);
+  font-size: 22px;
+  line-height: 52px;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, opacity 0.2s;
+  backdrop-filter: blur(4px);
+  padding: 0;
+}
+
+.cd-lb-arrow--prev { left: 28px; }
+.cd-lb-arrow--next { right: 28px; }
+
+.cd-lb-arrow:hover:not(.disabled) {
+  background: rgba(200, 169, 110, 0.18);
+  border-color: var(--gold);
+}
+
+.cd-lb-arrow.disabled {
+  opacity: 0.2;
+  cursor: default;
+  pointer-events: none;
+}
+
+/* ── Close button ────────────────────────────────────────── */
 .cd-lb-close {
   position: fixed;
   top: 24px;
@@ -701,27 +730,17 @@
   border-color: var(--gold);
 }
 
-.cd-lb-hint {
+/* ── Slide counter ───────────────────────────────────────── */
+.cd-lb-counter {
   position: fixed;
   bottom: 28px;
   left: 50%;
   transform: translateX(-50%);
   font-family: var(--font-label);
   font-size: 10px;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.3);
-  pointer-events: none;
-}
-
-.cd-lb-zoom {
-  position: fixed;
-  bottom: 28px;
-  right: 28px;
-  font-family: var(--font-label);
-  font-size: 11px;
-  letter-spacing: 2px;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(200, 169, 110, 0.7);
   pointer-events: none;
 }
 

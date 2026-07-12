@@ -2,37 +2,37 @@
   "landscape": [
     {
       "id": 1,
+      "caption": "Behind the Mask",
+      "image": null,
+      "gradient": "linear-gradient(160deg,#D4C8B8 0%,#E0D4C4 40%,#B0A090 100%)"
+    },
+    {
+      "id": 2,
       "caption": "Noorani - Women's wear",
       "image": null,
       "gradient": "linear-gradient(160deg,#2A2520 0%,#3A3028 50%,#1A1510 100%)"
     },
     {
-      "id": 2,
+      "id": 3,
       "caption": "Adhirath - Men's wear",
       "image": null,
       "gradient": "linear-gradient(160deg,#C4B8A8 0%,#D8CCBC 40%,#8A7A6A 100%)"
     },
     {
-      "id": 3,
-      "caption": "Entangled Souls",
-      "image": null,
-      "gradient": "linear-gradient(160deg,#3A3530 0%,#4A4540 50%,#252018 100%)"
-    },
-    {
       "id": 4,
       "caption": "Entangled Souls",
       "image": null,
-      "gradient": "linear-gradient(160deg,#D4C8B8 0%,#E0D4C4 40%,#B0A090 100%)"
+      "gradient": "linear-gradient(160deg,#3A3530 0%,#4A4540 50%,#252018 100%)"
     }
   ],
   "portrait": [
     {
       "id": 1,
-      "title": "Terra Collection",
-      "tag": "Fashion Collection · 2025",
-      "image": null,
+      "title": "Behind the Mask",
+      "tag": "Graduation Collection · 2026",
+      "image": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-portrait-cover.png",
       "gradient": "linear-gradient(160deg,#2A2520 0%,#1A1510 100%)",
-      "collectionSlug": null
+      "collectionSlug": "behind-the-mask"
     },
     {
       "id": 2,
