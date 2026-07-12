@@ -56,7 +56,7 @@ export default function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/myportfolio">
       <ScrollToTop />
       <Navbar profile={profile} />
       <Routes>
