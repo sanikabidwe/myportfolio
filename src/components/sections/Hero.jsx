@@ -1,24 +1,49 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Hero.css';
 
+/** Returns true when the viewport is ≤768px wide, and updates on resize. */
+function useMobile(breakpoint = 768) {
+  const query = `(max-width: ${breakpoint}px)`;
+  const [isMobile, setIsMobile] = useState(
+    () => typeof window !== 'undefined' && window.matchMedia(query).matches
+  );
+
+  useEffect(() => {
+    const mq = window.matchMedia(query);
+    const handler = (e) => setIsMobile(e.matches);
+    mq.addEventListener('change', handler);
+    return () => mq.removeEventListener('change', handler);
+  }, [query]);
+
+  return isMobile;
+}
+
 export default function Hero({ profile }) {
   const videoRef = useRef(null);
+  const isMobile = useMobile();
 
-  // Trigger play once the video element is mounted AND profile data is available
+  // Pick the right video URL:
+  // - mobile → heroVideoPortrait (fall back to heroVideo if not set yet)
+  // - desktop → heroVideo
+  const videoSrc = isMobile
+    ? (profile?.heroVideoPortrait || profile?.heroVideo)
+    : profile?.heroVideo;
+
+  // Reload + play whenever the resolved video URL changes
   useEffect(() => {
     const vid = videoRef.current;
-    if (!vid) return;
+    if (!vid || !videoSrc) return;
     vid.load();
-    vid.play().catch(() => { });
-  }, [profile?.heroVideo]); // re-run when the URL arrives
+    vid.play().catch(() => {});
+  }, [videoSrc]);
 
   if (!profile) return null;
 
   return (
     <section id="home" className="hero">
       {/* Background video */}
-      {profile.heroVideo && (
+      {videoSrc && (
         <video
           ref={videoRef}
           className="hero-video"
@@ -27,9 +52,10 @@ export default function Hero({ profile }) {
           loop
           playsInline
         >
-          <source src={profile.heroVideo} type="video/mp4" />
+          <source src={videoSrc} type="video/mp4" />
         </video>
       )}
+
       {/* Dark overlay so text stays readable */}
       <div className="hero-overlay" />
 
