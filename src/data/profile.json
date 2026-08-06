@@ -9,13 +9,7 @@
       "id": "linkedin",
       "name": "LinkedIn",
       "icon": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/logos/linkedin.png",
-      "accountUrl": "#"
-    },
-    {
-      "id": "behance",
-      "name": "Behance",
-      "icon": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/logos/behance.png",
-      "accountUrl": "#"
+      "accountUrl": "https://www.linkedin.com/in/sanika-bidwe-237b3530b?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
     }
   ],
   "about": {
@@ -30,5 +24,6 @@
   "heroImage": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/bunko_junko-image-1.jpeg",
   "heroVideo": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/videos/behind_the_mask-complete.mp4",
   "heroVideoPortrait": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/videos/behind_the_mask-complete-portrait.MP4",
-  "aboutImage": null
+  "aboutImage": null,
+  "contactImage": "https://pub-b55da1d1cf9a454c84dc67be1daabbdd.r2.dev/sanika-portfolio/assets/images/behind_the_mask-garment2-wheel_details.PNG"
 }

@@ -94,7 +94,7 @@ export default function ContactForm({ profile }) {
         {/* ── Right panel: editorial image ── */}
         <div className="contact-image-panel" aria-hidden="true">
           <img
-            src="/contact-editorial.png"
+            src={profile?.contactImage}
             alt="Atelier"
             className="contact-image"
           />
